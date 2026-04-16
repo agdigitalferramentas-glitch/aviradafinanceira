@@ -11,9 +11,6 @@ const WhyNowSection = () => {
         className="absolute inset-0 bg-cover bg-top-center opacity-30" 
         style={{ backgroundImage: "url('/src/assets/why-now-bg.jpg')" }}
       />
-      
-      {/* Subtle radial glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-accent/8 blur-[120px]" />
 
       <div
         ref={ref}
