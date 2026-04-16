@@ -1,5 +1,5 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { Shield } from "lucide-react";
+import seloGarantia from "@/assets/selo-garantia.png";
 import {
   Accordion,
   AccordionContent,
