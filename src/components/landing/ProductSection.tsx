@@ -30,7 +30,7 @@ const ProductSection = () => {
             return (
               <div
                 key={i}
-                className="glass-card rounded-xl p-6 flex items-start gap-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_0_20px_rgba(38,213,143,0.15)]"
+                className="glass-card rounded-xl p-6 flex items-start gap-5 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_0_20px_rgba(201,168,76,0.4),_0_0_60px_rgba(201,168,76,0.15)]"
                 style={{ transitionDelay: `${i * 100}ms` }}
               >
                 <div className="w-12 h-12 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center flex-shrink-0">
