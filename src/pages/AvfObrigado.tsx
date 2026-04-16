@@ -1,8 +1,8 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { AlertTriangle, MessageCircle } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
-import heroBackgroundMobile from "@/assets/hero-background-mobile.webp";
 import logo from "@/assets/logo.svg";
+import FooterSection from "@/components/landing/FooterSection";
 
 const WHATSAPP_LINK = "https://chat.whatsapp.com/CSQo396NnwQ4ccRAYvXPiP";
 
@@ -10,6 +10,7 @@ const AvfObrigado = () => {
   const { ref, isVisible } = useScrollAnimation(0.05);
 
   return (
+    <>
     <main className="relative min-h-screen flex items-start pt-10 overflow-hidden">
       {/* Desktop background */}
       <div className="absolute inset-0 bg-background hidden md:block">
@@ -22,16 +23,8 @@ const AvfObrigado = () => {
         <div className="absolute inset-0 bg-background/70" />
       </div>
 
-      {/* Mobile background */}
-      <div className="absolute inset-0 bg-background md:hidden">
-        <img
-          src={heroBackgroundMobile}
-          alt=""
-          aria-hidden="true"
-          className="absolute inset-0 w-full h-full object-cover object-bottom opacity-90"
-        />
-        <div className="absolute inset-0 bg-background/75" />
-      </div>
+      {/* Mobile background - solid only, no image */}
+      <div className="absolute inset-0 bg-background md:hidden" />
 
       <div
         ref={ref}
