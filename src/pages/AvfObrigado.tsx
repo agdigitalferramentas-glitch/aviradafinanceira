@@ -83,10 +83,29 @@ const AvfObrigado = () => {
             <span className="text-gradient">quase confirmada...</span>
           </h1>
 
-          <p className="text-base md:text-lg text-foreground/90 mb-10">
+          <p className="text-base md:text-lg text-foreground/90 mb-8">
             Falta apenas um último passo para garantir seu acesso à Imersão A
             Virada Financeira!
           </p>
+
+          {/* CTA */}
+          <div className="flex flex-col items-center w-full mb-10">
+            <a
+              href={WHATSAPP_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative inline-flex items-center justify-center gap-3 px-10 py-5 text-base md:text-lg bg-primary text-primary-foreground font-bold uppercase tracking-wide rounded-lg animate-pulse-glow hover:glow-green-intense transition-all duration-300 hover:scale-[1.02] hover:brightness-110 w-full sm:w-auto"
+            >
+              <MessageCircle className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0" />
+              <span className="text-center" style={{ textWrap: "balance" as any }}>
+                Entrar no grupo
+              </span>
+            </a>
+
+            <p className="mt-3.5 text-muted-foreground uppercase text-center text-[12px] md:text-[14px]">
+              Acesso exclusivo aos participantes confirmados
+            </p>
+          </div>
 
           {/* Call-out card */}
           <div className="card-surface rounded-xl p-6 md:p-8 mb-8 text-left">
@@ -113,25 +132,6 @@ const AvfObrigado = () => {
                 </li>
               ))}
             </ul>
-
-            {/* CTA inside card */}
-            <div className="flex flex-col items-center w-full">
-              <a
-                href={WHATSAPP_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative inline-flex items-center justify-center gap-3 px-10 py-5 text-base md:text-lg bg-primary text-primary-foreground font-bold uppercase tracking-wide rounded-lg animate-pulse-glow hover:glow-green-intense transition-all duration-300 hover:scale-[1.02] hover:brightness-110 w-full sm:w-auto"
-              >
-                <MessageCircle className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0" />
-                <span className="text-center" style={{ textWrap: "balance" as any }}>
-                  Entrar no grupo
-                </span>
-              </a>
-
-              <p className="mt-3.5 text-muted-foreground uppercase text-center text-[12px] md:text-[14px]">
-                Acesso exclusivo aos participantes confirmados
-              </p>
-            </div>
           </div>
 
           {/* Warning */}
