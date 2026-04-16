@@ -100,7 +100,7 @@ const AvfObrigado = () => {
               É por lá que você vai receber:
             </p>
 
-            <ul className="space-y-3 text-sm md:text-base text-foreground/90">
+            <ul className="space-y-3 text-sm md:text-base text-foreground/90 mb-8">
               {[
                 "O link oficial da imersão ao vivo",
                 "Os avisos importantes antes do evento",
@@ -113,10 +113,29 @@ const AvfObrigado = () => {
                 </li>
               ))}
             </ul>
+
+            {/* CTA inside card */}
+            <div className="flex flex-col items-center w-full">
+              <a
+                href={WHATSAPP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative inline-flex items-center justify-center gap-3 px-10 py-5 text-base md:text-lg bg-primary text-primary-foreground font-bold uppercase tracking-wide rounded-lg animate-pulse-glow hover:glow-green-intense transition-all duration-300 hover:scale-[1.02] hover:brightness-110 w-full sm:w-auto"
+              >
+                <MessageCircle className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0" />
+                <span className="text-center" style={{ textWrap: "balance" as any }}>
+                  Entrar no grupo
+                </span>
+              </a>
+
+              <p className="mt-3.5 text-muted-foreground uppercase text-center text-[12px] md:text-[14px]">
+                Acesso exclusivo aos participantes confirmados
+              </p>
+            </div>
           </div>
 
           {/* Warning */}
-          <div className="glass-card rounded-xl p-5 md:p-6 mb-10 text-left flex gap-4 items-start">
+          <div className="glass-card rounded-xl p-5 md:p-6 text-left flex gap-4 items-start">
             <AlertTriangle
               className="w-6 h-6 md:w-7 md:h-7 text-primary shrink-0 mt-0.5"
               aria-hidden="true"
@@ -131,25 +150,6 @@ const AvfObrigado = () => {
                 grupo podem não conseguir acessar a aula ao vivo.
               </p>
             </div>
-          </div>
-
-          {/* CTA */}
-          <div className="flex flex-col items-center w-full">
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative inline-flex items-center justify-center gap-3 px-10 py-5 text-base md:text-lg bg-primary text-primary-foreground font-bold uppercase tracking-wide rounded-lg animate-pulse-glow hover:glow-green-intense transition-all duration-300 hover:scale-[1.02] hover:brightness-110 w-full sm:w-auto"
-            >
-              <MessageCircle className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0" />
-              <span className="text-center" style={{ textWrap: "balance" as any }}>
-                Entrar no grupo
-              </span>
-            </a>
-
-            <p className="mt-3.5 text-muted-foreground uppercase text-center text-[12px] md:text-[14px]">
-              Acesso exclusivo aos participantes confirmados
-            </p>
           </div>
         </div>
       </div>
