@@ -10,7 +10,7 @@ const AvfObrigado = () => {
   const { ref, isVisible } = useScrollAnimation(0.05);
 
   return (
-    <main className="relative min-h-screen flex items-start md:items-center pt-10 md:pt-16 overflow-hidden">
+    <main className="relative min-h-screen flex items-start pt-10 overflow-hidden">
       {/* Desktop background */}
       <div className="absolute inset-0 bg-background hidden md:block">
         <img
@@ -35,7 +35,7 @@ const AvfObrigado = () => {
 
       <div
         ref={ref}
-        className={`container mx-auto px-4 relative z-10 py-12 md:py-20 transition-all duration-1000 ${
+        className={`container mx-auto px-4 relative z-10 pb-12 md:pb-20 transition-all duration-1000 ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
       >
