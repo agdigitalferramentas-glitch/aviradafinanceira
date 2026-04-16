@@ -1,4 +1,5 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import bioImage from "@/assets/bio-bruno-musa.webp";
 
 const MentorSection = () => {
   const { ref, isVisible } = useScrollAnimation();
@@ -15,15 +16,10 @@ const MentorSection = () => {
         </h2>
 
         <div className="grid md:grid-cols-2 gap-10 items-center">
-          {/* Photo placeholder */}
+          {/* Photo */}
           <div className="relative">
-            <div className="aspect-[3/4] rounded-2xl card-surface overflow-hidden flex items-center justify-center">
-              <div className="text-center p-8">
-                <div className="w-32 h-32 rounded-full bg-primary/15 border-2 border-primary/30 mx-auto mb-6 flex items-center justify-center">
-                  <span className="text-5xl font-bold text-primary">BM</span>
-                </div>
-                <p className="text-sm text-muted-foreground">Foto do Especialista</p>
-              </div>
+            <div className="aspect-[3/4] rounded-2xl overflow-hidden">
+              <img src={bioImage} alt="Bruno Musa" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -inset-2 rounded-2xl bg-gradient-to-t from-primary/10 to-transparent blur-2xl -z-10" />
           </div>
