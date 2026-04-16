@@ -47,10 +47,19 @@ const PainSection = () => {
           <div className="space-y-6 text-base md:text-lg text-foreground/80 leading-relaxed">
             <p>
               Hoje, a média de aposentadoria no Brasil é de apenas{" "}
-              <span className="text-primary font-bold">R$1.863</span>. Alimentação, moradia, remédios, consultas e imprevistos. Responda com sinceridade: isso é suficiente para viver com tranquilidade?
+              <span className="text-primary font-bold">R$1.863</span>. Alimentação, moradia, remédios, consultas e imprevistos. Responda com sinceridade:
+            </p>
+            <p className="text-xl md:text-2xl font-bold text-foreground">
+              Isso é suficiente para viver com tranquilidade?
             </p>
             <p>
-              Em 1980, existiam 8 trabalhadores para cada aposentado. Hoje são menos de 3. A conta não fecha. E toda vez que o rombo aumenta, o governo muda as regras, aumenta o tempo de contribuição e diminui o valor.
+              Em 1980, existiam 8 trabalhadores para cada aposentado. Hoje são menos de 3.
+            </p>
+            <p className="text-xl md:text-2xl font-bold text-foreground">
+              A conta não fecha.
+            </p>
+            <p>
+              E toda vez que o rombo aumenta, o governo muda as regras, aumenta o tempo de contribuição e diminui o valor.
             </p>
             <p className="text-xl md:text-2xl font-bold text-foreground">
               Se o seu único plano é o INSS, você não tem plano. Você tem esperança.
