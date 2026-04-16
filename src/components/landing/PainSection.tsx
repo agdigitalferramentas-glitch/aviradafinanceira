@@ -33,7 +33,7 @@ const PainSection = () => {
           className={`space-y-8 transition-all duration-700 delay-200 -mt-[20px] relative z-10 ${v2 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
           {/* Promise cards */}
-          <div className="glass-card rounded-xl p-8 md:p-10">
+          <div className="glass-card rounded-xl p-8 md:p-10 text-center">
             <div className="space-y-3 mb-8">
               <p className="text-lg md:text-xl text-foreground/80 italic">"Trabalhei a vida inteira..."</p>
               <p className="text-lg md:text-xl text-foreground/80 italic">"Contribuí todos os meses..."</p>
