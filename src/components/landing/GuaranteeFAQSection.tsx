@@ -42,8 +42,8 @@ const GuaranteeFAQSection = () => {
           ref={gRef}
           className={`glass-card rounded-3xl p-8 md:p-14 text-center mb-20 transition-all duration-700 ${gV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
-          <div className="w-24 h-24 rounded-full border-2 border-primary/40 bg-primary/10 mx-auto mb-8 flex items-center justify-center animate-float">
-            <Shield className="w-12 h-12 text-primary" />
+          <div className="mx-auto mb-8 animate-float">
+            <img src={seloGarantia} alt="Selo de Garantia 100%" className="w-[200px] mx-auto" />
           </div>
           <h2 className="text-3xl md:text-4xl font-extrabold mb-6">
             GARANTIA TOTAL DE SATISFAÇÃO
