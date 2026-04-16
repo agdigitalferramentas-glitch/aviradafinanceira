@@ -28,8 +28,8 @@ const CTAButton = ({ text, href = "#", className = "", size = "default" }: CTABu
         ${className}
       `}
     >
-      <span>{text}</span>
-      <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+      <span className="text-center break-words hyphens-auto" lang="pt-BR">{text}</span>
+      <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1 flex-shrink-0" />
     </a>
   );
 };
