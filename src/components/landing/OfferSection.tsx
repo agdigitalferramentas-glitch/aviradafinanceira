@@ -24,7 +24,7 @@ const OfferSection = () => {
         ref={ref}
         className={`container mx-auto px-4 max-w-4xl relative z-10 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
       >
-        <ul className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-4 sm:gap-6 mb-4">
+        <ul className="flex flex-col sm:flex-row sm:flex-wrap items-center justify-center gap-4 sm:gap-6 mb-4">
           <li className="flex items-center gap-3 text-base md:text-lg text-white">
             <Calendar className="w-5 h-5 md:w-6 md:h-6 text-primary shrink-0" aria-hidden="true" />
             <span>09 de Maio, das 8h às 15h</span>
