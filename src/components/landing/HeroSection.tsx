@@ -58,11 +58,13 @@ const HeroSection = () => {
           </ul>
 
           {/* CTA */}
-          <CTAButton text="QUERO GARANTIR MINHA VAGA NO LOTE ZERO" size="lg" href="#price-anchor" />
+          <div className="flex flex-col items-center w-full">
+            <CTAButton text="QUERO GARANTIR MINHA VAGA NO LOTE ZERO" size="lg" href="#price-anchor" />
 
-          <p className="mt-6 text-sm text-muted-foreground">
-            Vagas do Lote Zero podem virar a qualquer momento
-          </p>
+            <p className="mt-6 text-muted-foreground uppercase text-center" style={{ fontSize: "14px" }}>
+              VAGAS DO LOTE ZERO PODEM VIRAR A QUALQUER MOMENTO
+            </p>
+          </div>
 
           {/* Spacer for mobile so expert photo isn't covered */}
           <div className="h-[40vh] md:hidden" />
