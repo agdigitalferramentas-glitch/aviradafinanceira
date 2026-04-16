@@ -5,7 +5,7 @@ const ClosingSection = () => {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section className="py-20 md:py-32 relative overflow-hidden">
+    <section className="py-10 md:py-16 relative overflow-hidden">
       <div className="absolute inset-0">
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full bg-primary/8 blur-[150px]" />
       </div>

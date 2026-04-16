@@ -35,7 +35,7 @@ const GuaranteeFAQSection = () => {
   const { ref: fRef, isVisible: fV } = useScrollAnimation();
 
   return (
-    <section className="py-20 md:py-32">
+    <section className="py-10 md:py-16">
       <div className="container mx-auto px-4 max-w-4xl">
         {/* Guarantee */}
         <div

@@ -5,7 +5,7 @@ const WhyNowSection = () => {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section className="py-20 md:py-32 relative overflow-hidden">
+    <section className="py-10 md:py-16 relative overflow-hidden">
       {/* Background image */}
       <div 
         className="absolute inset-0 bg-cover bg-left-top" 
