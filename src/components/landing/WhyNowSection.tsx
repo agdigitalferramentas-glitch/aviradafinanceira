@@ -8,7 +8,7 @@ const WhyNowSection = () => {
     <section className="py-20 md:py-32 relative overflow-hidden">
       {/* Background image */}
       <div 
-        className="absolute inset-0 bg-cover bg-right-top" 
+        className="absolute inset-0 bg-cover bg-left-top" 
         style={{ backgroundImage: "url('/src/assets/why-now-bg.jpg')" }}
       />
 
