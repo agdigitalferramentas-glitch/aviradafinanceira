@@ -21,7 +21,7 @@ const FooterSection = () => {
           </a>
         </p>
         <p className="text-xs text-muted-foreground/60">
-          © {new Date().getFullYear()} Bruno Musa. Todos os direitos reservados.
+          © 2026 Bruno Musa. Todos os direitos reservados.
         </p>
       </div>
     </footer>
