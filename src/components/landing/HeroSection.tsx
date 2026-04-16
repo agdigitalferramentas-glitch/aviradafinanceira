@@ -67,7 +67,7 @@ const HeroSection = () => {
           </div>
 
           {/* Spacer for mobile so expert photo isn't covered */}
-          <div className="h-[40vh] md:hidden" />
+          <div className="h-[calc(40vh+20px)] md:hidden" />
         </div>
       </div>
     </section>
