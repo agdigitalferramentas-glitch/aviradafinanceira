@@ -8,7 +8,7 @@ const FooterSection = () => {
           <img src={logo} alt="A Virada Financeira" className="h-12 md:h-14 w-auto" />
         </div>
         <p className="text-sm text-muted-foreground mb-4">
-          Imersão ao vivo com Bruno Musa — Dia 09 de maio de 2025
+          Imersão ao vivo com Niu Cursos — Dia 09 de maio de 2026
         </p>
         <div className="h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent mb-6 max-w-sm mx-auto" />
         <p className="text-sm text-muted-foreground mb-2">
