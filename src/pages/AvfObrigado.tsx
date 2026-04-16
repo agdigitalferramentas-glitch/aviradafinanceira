@@ -35,7 +35,7 @@ const AvfObrigado = () => {
 
       <div
         ref={ref}
-        className={`container mx-auto px-4 relative z-10 py-12 md:py-20 transition-all duration-1000 ${
+        className={`container mx-auto px-4 relative z-10 pb-12 md:pb-20 transition-all duration-1000 ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}
       >
