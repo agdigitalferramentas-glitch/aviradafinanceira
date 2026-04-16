@@ -1,9 +1,11 @@
+import logo from "@/assets/logo.svg";
+
 const FooterSection = () => {
   return (
     <footer className="py-12 border-t border-primary/10">
       <div className="container mx-auto px-4 text-center">
-        <div className="mb-6">
-          <span className="text-2xl font-extrabold text-gradient">A Virada Financeira</span>
+        <div className="mb-6 flex justify-center">
+          <img src={logo} alt="A Virada Financeira" className="h-12 md:h-14 w-auto" />
         </div>
         <p className="text-sm text-muted-foreground mb-4">
           Imersão ao vivo com Bruno Musa — Dia 09 de maio de 2025
