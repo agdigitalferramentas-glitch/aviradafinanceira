@@ -9,6 +9,15 @@ const FooterSection = () => {
           Imersão ao vivo com Bruno Musa — Dia 09 de maio de 2025
         </p>
         <div className="h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent mb-6 max-w-sm mx-auto" />
+        <p className="text-sm text-muted-foreground mb-2">
+          Transformamos conhecimento em negócios lucrativos
+        </p>
+        <p className="text-sm text-muted-foreground mb-6">
+          Venha ser um Expert{" "}
+          <a href="https://agwebi.com.br/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">
+            AG WEBi
+          </a>
+        </p>
         <p className="text-xs text-muted-foreground/60">
           © {new Date().getFullYear()} Bruno Musa. Todos os direitos reservados.
         </p>
