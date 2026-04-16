@@ -14,9 +14,6 @@ const HeroSection = () => {
           className="absolute inset-0 w-full h-full object-cover object-center opacity-90"
         />
       </div>
-      {/* Radial glow overlay */}
-      <div className="absolute top-1/2 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-primary/10 blur-[150px]" />
-      <div className="absolute top-1/3 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] rounded-full bg-accent/15 blur-[100px]" />
 
       <div
         ref={ref}
