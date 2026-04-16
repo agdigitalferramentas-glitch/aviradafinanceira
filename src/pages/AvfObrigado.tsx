@@ -47,10 +47,6 @@ const AvfObrigado = () => {
             className="h-12 md:h-16 w-auto mb-8 mx-auto"
           />
 
-          {/* Section label */}
-          <p className="text-xs md:text-sm font-semibold uppercase tracking-[0.2em] text-primary mb-6">
-            Confirmação de Inscrição
-          </p>
 
           {/* Progress bar */}
           <div className="mb-8">
