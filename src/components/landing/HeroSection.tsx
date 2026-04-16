@@ -6,8 +6,15 @@ const HeroSection = () => {
 
   return (
     <section className="relative min-h-screen flex items-center pt-16 overflow-hidden">
-      {/* Radial glow background */}
-      <div className="absolute inset-0 bg-background" />
+      {/* Background image */}
+      <div className="absolute inset-0 bg-background">
+        <img 
+          src="/src/assets/hero-background.jpg" 
+          alt="Background" 
+          className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-auto object-cover object-top opacity-90"
+        />
+      </div>
+      {/* Radial glow overlay */}
       <div className="absolute top-1/2 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-primary/10 blur-[150px]" />
       <div className="absolute top-1/3 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] rounded-full bg-accent/15 blur-[100px]" />
 
