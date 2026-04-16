@@ -65,7 +65,7 @@ const OfferSection = () => {
             </div>
           </div>
 
-          <CTAButton text={"COMPRAR INGRESSO\n— LOTE ZERO"} size="lg" href="https://pay.kiwify.com.br/RGc6Doo" />
+          <CTAButton text={"COMPRAR INGRESSO\n— LOTE ZERO"} size="lg" href="https://pay.kiwify.com.br/RGc6Doo" className="!px-6 md:!px-10 !gap-2 md:!gap-3" />
 
           <p className="mt-6 text-sm text-primary/80 font-semibold">
             Lote Zero: vagas limitadas
