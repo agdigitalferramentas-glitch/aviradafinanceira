@@ -1,3 +1,4 @@
+import { Calendar, Video } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import CTAButton from "./CTAButton";
 import heroBackground from "@/assets/hero-background.jpg";
@@ -44,10 +45,17 @@ const HeroSection = () => {
             , mesmo começando do zero e sem nunca ter investido um centavo na vida.
           </h1>
 
-          {/* Subtitle */}
-          <p className="text-lg md:text-xl text-muted-foreground mb-10">
-            Dia 09 de maio, das 8h às 15h. Ao vivo, no Zoom.
-          </p>
+          {/* Subtitle - icon list */}
+          <ul className="flex flex-col sm:flex-row sm:flex-wrap gap-4 sm:gap-6 mb-10">
+            <li className="flex items-center gap-3 text-base md:text-lg text-muted-foreground">
+              <Calendar className="w-5 h-5 md:w-6 md:h-6 text-primary shrink-0" aria-hidden="true" />
+              <span>Dia 09 de maio, das 8h às 15h.</span>
+            </li>
+            <li className="flex items-center gap-3 text-base md:text-lg text-muted-foreground">
+              <Video className="w-5 h-5 md:w-6 md:h-6 text-primary shrink-0" aria-hidden="true" />
+              <span>Ao vivo, no Zoom.</span>
+            </li>
+          </ul>
 
           {/* CTA */}
           <CTAButton text="QUERO GARANTIR MINHA VAGA NO LOTE ZERO" size="lg" href="#price-anchor" />
