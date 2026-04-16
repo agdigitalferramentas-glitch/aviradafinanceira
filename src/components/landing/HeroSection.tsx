@@ -1,14 +1,15 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import CTAButton from "./CTAButton";
 import heroBackground from "@/assets/hero-background.jpg";
+import heroBackgroundMobile from "@/assets/hero-background-mobile.webp";
 
 const HeroSection = () => {
   const { ref, isVisible } = useScrollAnimation(0.1);
 
   return (
-    <section className="relative min-h-screen flex items-center pt-16 overflow-hidden">
-      {/* Background image */}
-      <div className="absolute inset-0 bg-background">
+    <section className="relative min-h-screen flex items-start md:items-center pt-16 overflow-hidden">
+      {/* Desktop background image */}
+      <div className="absolute inset-0 bg-background hidden md:block">
         <img 
           src={heroBackground} 
           alt="Background" 
@@ -16,9 +17,18 @@ const HeroSection = () => {
         />
       </div>
 
+      {/* Mobile background image - bottom center, cover */}
+      <div className="absolute inset-0 bg-background md:hidden">
+        <img 
+          src={heroBackgroundMobile} 
+          alt="Background" 
+          className="absolute inset-0 w-full h-full object-cover object-bottom opacity-90"
+        />
+      </div>
+
       <div
         ref={ref}
-        className={`container mx-auto px-4 relative z-10 py-20 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+        className={`container mx-auto px-4 relative z-10 py-12 md:py-20 transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
       >
         <div className="max-w-[50%] max-md:max-w-full text-left">
           {/* Badge */}
@@ -48,6 +58,9 @@ const HeroSection = () => {
           <p className="mt-6 text-sm text-muted-foreground">
             Vagas do Lote Zero podem virar a qualquer momento
           </p>
+
+          {/* Spacer for mobile so expert photo isn't covered */}
+          <div className="h-[40vh] md:hidden" />
         </div>
       </div>
     </section>
