@@ -62,7 +62,7 @@ const GuaranteeFAQSection = () => {
           className={`transition-all duration-700 ${fV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
           <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-4">
-            FAQ — <span className="text-primary">Perguntas Frequentes</span>
+            Perguntas Frequentes
           </h2>
           <p className="text-center text-muted-foreground mb-10">Tire suas dúvidas antes de garantir sua vaga</p>
 
