@@ -21,7 +21,7 @@ const FooterSection = () => {
           </a>
         </p>
         <p className="text-xs text-muted-foreground/60">
-          © 2026 Bruno Musa. Todos os direitos reservados.
+          © 2026 Niu Cursos. Todos os direitos reservados.
         </p>
       </div>
     </footer>
