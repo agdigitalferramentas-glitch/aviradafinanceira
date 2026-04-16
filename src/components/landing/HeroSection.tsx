@@ -1,5 +1,6 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import CTAButton from "./CTAButton";
+import heroBackground from "@/assets/hero-background.jpg";
 
 const HeroSection = () => {
   const { ref, isVisible } = useScrollAnimation(0.1);
@@ -9,7 +10,7 @@ const HeroSection = () => {
       {/* Background image */}
       <div className="absolute inset-0 bg-background">
         <img 
-          src="/src/assets/hero-background.jpg" 
+          src={heroBackground} 
           alt="Background" 
           className="absolute inset-0 w-full h-full object-cover object-center opacity-90"
         />
