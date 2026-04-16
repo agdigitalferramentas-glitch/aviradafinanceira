@@ -10,7 +10,7 @@ const AvfObrigado = () => {
   const { ref, isVisible } = useScrollAnimation(0.05);
 
   return (
-    <main className="relative min-h-screen flex items-start md:items-center pt-10 md:pt-16 overflow-hidden">
+    <main className="relative min-h-screen flex items-start pt-10 overflow-hidden">
       {/* Desktop background */}
       <div className="absolute inset-0 bg-background hidden md:block">
         <img
