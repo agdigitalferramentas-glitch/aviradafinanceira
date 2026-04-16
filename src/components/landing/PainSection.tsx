@@ -30,7 +30,7 @@ const PainSection = () => {
 
         <div
           ref={ref2}
-          className={`space-y-8 transition-all duration-700 delay-200 -mt-[10px] relative z-10 ${v2 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+          className={`space-y-8 transition-all duration-700 delay-200 -mt-[20px] relative z-10 ${v2 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
           {/* Promise cards */}
           <div className="glass-card rounded-xl p-8 md:p-10">
