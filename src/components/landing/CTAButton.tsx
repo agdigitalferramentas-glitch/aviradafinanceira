@@ -1,4 +1,6 @@
 import { ArrowRight } from "lucide-react";
+import { useEffect, useState } from "react";
+import { appendTrackingParams } from "@/lib/tracking";
 
 interface CTAButtonProps {
   text: string;
@@ -11,6 +13,12 @@ const CTAButton = ({ text, href = "#", className = "", size = "default" }: CTABu
   const sizeClasses = size === "lg" 
     ? "px-10 py-5 text-base md:text-lg" 
     : "px-8 py-4 text-base";
+
+  // Compute final href with current query params appended (for external checkout links)
+  const [finalHref, setFinalHref] = useState(href);
+  useEffect(() => {
+    setFinalHref(appendTrackingParams(href));
+  }, [href]);
 
   // Prevent orphan words by adding non-breaking spaces between last 3 words
   const preventOrphans = (text: string) => {
@@ -25,7 +33,7 @@ const CTAButton = ({ text, href = "#", className = "", size = "default" }: CTABu
 
   return (
     <a
-      href={href}
+      href={finalHref}
       className={`
         group relative inline-flex items-center justify-center gap-3
         ${sizeClasses}
