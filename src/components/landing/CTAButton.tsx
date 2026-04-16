@@ -12,6 +12,17 @@ const CTAButton = ({ text, href = "#", className = "", size = "default" }: CTABu
     ? "px-10 py-5 text-base md:text-lg" 
     : "px-8 py-4 text-base";
 
+  // Prevent orphan words by adding non-breaking spaces between last 3 words
+  const preventOrphans = (text: string) => {
+    const words = text.split(' ');
+    if (words.length <= 3) return text;
+    
+    const lastThree = words.slice(-3).join('\u00A0'); // \u00A0 is non-breaking space
+    const rest = words.slice(0, -3).join(' ');
+    
+    return rest + ' ' + lastThree;
+  };
+
   return (
     <a
       href={href}
@@ -28,7 +39,9 @@ const CTAButton = ({ text, href = "#", className = "", size = "default" }: CTABu
         ${className}
       `}
     >
-      <span className="text-center break-words hyphens-auto" lang="pt-BR">{text}</span>
+      <span className="text-center break-words hyphens-none" style={{ textWrap: 'balance' as any }}>
+        {preventOrphans(text)}
+      </span>
       <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1 flex-shrink-0" />
     </a>
   );
