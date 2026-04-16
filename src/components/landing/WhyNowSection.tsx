@@ -37,7 +37,7 @@ const WhyNowSection = () => {
         </div>
 
         <div className="text-center pt-10">
-          <CTAButton text="QUERO ENTENDER ESSE CENÁRIO ANTES QUE MUDE" />
+          <CTAButton text="QUERO ENTENDER ESSE CENÁRIO ANTES QUE MUDE" href="#price-anchor" />
         </div>
       </div>
     </section>

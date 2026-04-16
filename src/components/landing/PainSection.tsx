@@ -61,7 +61,7 @@ const PainSection = () => {
           </div>
 
           <div className="text-center pt-8">
-            <CTAButton text="GARANTIR MINHA VAGA NA IMERSÃO" />
+            <CTAButton text="GARANTIR MINHA VAGA NA IMERSÃO" href="#price-anchor" />
           </div>
         </div>
       </div>

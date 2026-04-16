@@ -49,7 +49,7 @@ const ProductSection = () => {
         </p>
 
         <div className="text-center">
-          <CTAButton text="COMPRAR INGRESSO — LOTE ZERO" size="lg" />
+          <CTAButton text="COMPRAR INGRESSO — LOTE ZERO" size="lg" href="#price-anchor" />
         </div>
       </div>
     </section>

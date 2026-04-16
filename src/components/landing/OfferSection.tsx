@@ -48,7 +48,7 @@ const OfferSection = () => {
           {/* Price anchoring */}
           <div className="mb-8">
             <p className="text-lg text-muted-foreground mb-2">
-              Uma sessão com um consultor financeiro particular custa entre R$500 e R$2.000.
+              <span id="price-anchor">Uma sessão com um consultor financeiro particular custa entre R$500 e R$2.000.</span>
             </p>
             <p className="text-xl text-foreground/80">
               Aqui eu tenho 7 horas com Bruno Musa por:
@@ -65,7 +65,7 @@ const OfferSection = () => {
             </div>
           </div>
 
-          <CTAButton text="COMPRAR INGRESSO — LOTE ZERO" size="lg" />
+          <CTAButton text="COMPRAR INGRESSO — LOTE ZERO" size="lg" href="https://pay.kiwify.com.br/RGc6Doo" />
 
           <p className="mt-6 text-sm text-primary/80 font-semibold">
             Lote Zero: vagas limitadas
