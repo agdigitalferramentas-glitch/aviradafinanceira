@@ -44,7 +44,7 @@ const AvfObrigado = () => {
           <img
             src={logo}
             alt="A Virada Financeira"
-            className="h-12 md:h-16 w-auto mb-8 mx-auto"
+            className="h-[38px] md:h-[51px] w-auto mb-8 mx-auto"
           />
 
 
