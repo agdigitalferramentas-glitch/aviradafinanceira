@@ -7,13 +7,13 @@ const PainSection = () => {
   const { ref: ref2, isVisible: v2 } = useScrollAnimation();
 
   return (
-    <section className="pt-0 pb-20 md:pt-0 md:pb-32 relative">
+    <section className="pt-5 pb-20 md:pt-5 md:pb-32 relative">
       <div className="container mx-auto px-4 max-w-4xl">
         <div
           ref={ref1}
           className={`transition-all duration-700 ${v1 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-center mb-12 leading-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-center mb-4 leading-tight">
             A aposentadoria que prometeram pra você{" "}
             <span className="text-primary">não existe mais.</span>
           </h2>
