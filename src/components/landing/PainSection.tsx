@@ -7,7 +7,7 @@ const PainSection = () => {
   const { ref: ref2, isVisible: v2 } = useScrollAnimation();
 
   return (
-    <section className="pt-5 pb-20 md:pt-5 md:pb-32 relative">
+    <section className="pt-2 pb-10 md:pt-2 md:pb-16 relative">
       <div className="container mx-auto px-4 max-w-4xl">
         <div
           ref={ref1}
