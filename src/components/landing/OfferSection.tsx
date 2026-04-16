@@ -1,6 +1,6 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import CTAButton from "./CTAButton";
-import { Check } from "lucide-react";
+import { Check, Calendar, Video } from "lucide-react";
 
 const deliverables = [
   "7 horas de imersão ao vivo com Bruno Musa",
@@ -24,9 +24,16 @@ const OfferSection = () => {
         ref={ref}
         className={`container mx-auto px-4 max-w-4xl relative z-10 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
       >
-        <p className="text-center text-lg text-muted-foreground mb-4">
-          Dia 09 de maio, das 8h às 15h. Ao vivo, no Zoom.
-        </p>
+        <ul className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-4 sm:gap-6 mb-4">
+          <li className="flex items-center gap-3 text-base md:text-lg text-white">
+            <Calendar className="w-5 h-5 md:w-6 md:h-6 text-primary shrink-0" aria-hidden="true" />
+            <span>09 de Maio, das 8h às 15h</span>
+          </li>
+          <li className="flex items-center gap-3 text-base md:text-lg text-white">
+            <Video className="w-5 h-5 md:w-6 md:h-6 text-primary shrink-0" aria-hidden="true" />
+            <span>Ao vivo, no Zoom.</span>
+          </li>
+        </ul>
 
         <div className="glass-card rounded-3xl p-8 md:p-14 text-center relative overflow-hidden">
           {/* Glow ring */}
