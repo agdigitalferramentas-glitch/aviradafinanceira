@@ -1,5 +1,6 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import CTAButton from "./CTAButton";
+import painImage from "@/assets/pain-section-image.webp";
 
 const PainSection = () => {
   const { ref: ref1, isVisible: v1 } = useScrollAnimation();
@@ -18,9 +19,18 @@ const PainSection = () => {
           </h2>
         </div>
 
+        {/* Image after title */}
+        <div className="flex justify-center mb-0">
+          <img
+            src={painImage}
+            alt="Aposentadoria"
+            className="w-full max-w-[800px] rounded-xl object-cover"
+          />
+        </div>
+
         <div
           ref={ref2}
-          className={`space-y-8 transition-all duration-700 delay-200 ${v2 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+          className={`space-y-8 transition-all duration-700 delay-200 -mt-[10px] relative z-10 ${v2 ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
           {/* Promise cards */}
           <div className="glass-card rounded-xl p-8 md:p-10">
