@@ -24,7 +24,7 @@ const PainSection = () => {
           <img
             src={painImage}
             alt="Aposentadoria"
-            className="w-full max-w-[600px] rounded-xl object-cover"
+            className="w-full max-w-[700px] rounded-xl object-cover"
           />
         </div>
 
