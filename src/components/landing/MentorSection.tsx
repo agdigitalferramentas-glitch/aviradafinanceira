@@ -5,7 +5,7 @@ const MentorSection = () => {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section className="py-10 md:py-16 relative">
+    <section className="py-12 md:py-20 relative">
       <div
         ref={ref}
         className={`container mx-auto px-4 max-w-5xl transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}

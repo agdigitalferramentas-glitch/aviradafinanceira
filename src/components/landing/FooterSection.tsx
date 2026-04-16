@@ -2,7 +2,7 @@ import logo from "@/assets/logo.svg";
 
 const FooterSection = () => {
   return (
-    <footer className="py-12 border-t border-primary/10">
+    <footer className="py-15 border-t border-primary/10" style={{ paddingTop: "3.75rem", paddingBottom: "3.75rem" }}>
       <div className="container mx-auto px-4 text-center">
         <div className="mb-6 flex justify-center">
           <img src={logo} alt="A Virada Financeira" className="h-12 md:h-14 w-auto" />

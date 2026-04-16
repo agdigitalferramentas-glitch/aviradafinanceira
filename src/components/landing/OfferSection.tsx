@@ -13,7 +13,7 @@ const OfferSection = () => {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section className="py-10 md:py-16 relative overflow-hidden">
+    <section className="py-12 md:py-20 relative overflow-hidden">
       {/* Candlestick-style background feel */}
       <div className="absolute inset-0">
         <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-primary/5 to-transparent" />
