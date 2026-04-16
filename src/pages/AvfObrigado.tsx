@@ -147,6 +147,8 @@ const AvfObrigado = () => {
         </div>
       </div>
     </main>
+    <FooterSection />
+    </>
   );
 };
 
