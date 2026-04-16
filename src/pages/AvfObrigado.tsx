@@ -90,7 +90,7 @@ const AvfObrigado = () => {
 
           {/* Call-out card */}
           <div className="card-surface rounded-xl p-6 md:p-8 mb-8 text-left">
-            <h2 className="text-lg md:text-2xl font-bold uppercase tracking-wide mb-5 text-center">
+            <h2 className="text-base md:text-2xl font-bold uppercase tracking-wide mb-5 text-center">
               Para concluir sua confirmação, você precisa entrar no{" "}
               <span className="text-gradient">grupo exclusivo</span> de
               participantes no WhatsApp.
