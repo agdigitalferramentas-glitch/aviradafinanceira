@@ -47,7 +47,7 @@ const CTAButton = ({ text, href = "#", className = "", size = "default" }: CTABu
         ${className}
       `}
     >
-      <span className="text-center break-words hyphens-none" style={{ textWrap: 'balance' as any }}>
+      <span className="text-center break-words hyphens-none whitespace-pre-line" style={{ textWrap: 'balance' as any }}>
         {preventOrphans(text)}
       </span>
       <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1 flex-shrink-0" />
