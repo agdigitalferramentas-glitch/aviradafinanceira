@@ -1,5 +1,6 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import CTAButton from "./CTAButton";
+import whyNowBg from "@/assets/why-now-bg.jpg";
 
 const WhyNowSection = () => {
   const { ref, isVisible } = useScrollAnimation();
@@ -9,7 +10,7 @@ const WhyNowSection = () => {
       {/* Background image */}
       <div 
         className="absolute inset-0 bg-cover bg-left-top" 
-        style={{ backgroundImage: "url('/src/assets/why-now-bg.jpg')" }}
+        style={{ backgroundImage: `url('${whyNowBg}')` }}
       />
 
       <div
