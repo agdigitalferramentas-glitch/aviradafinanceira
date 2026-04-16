@@ -1,7 +1,8 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import testimonial01 from "@/assets/testimonial-01.webp";
+import testimonial02 from "@/assets/testimonial-02.webp";
 
-const testimonials = [testimonial01];
+const testimonials = [testimonial01, testimonial02];
 
 const SocialProofSection = () => {
   const { ref, isVisible } = useScrollAnimation();
