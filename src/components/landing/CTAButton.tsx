@@ -10,7 +10,7 @@ interface CTAButtonProps {
 const CTAButton = ({ text, href = "#", className = "", size = "default" }: CTAButtonProps) => {
   const sizeClasses = size === "lg" 
     ? "px-10 py-5 text-base md:text-lg" 
-    : "px-8 py-4 text-sm md:text-base";
+    : "px-8 py-4 text-base";
 
   return (
     <a
