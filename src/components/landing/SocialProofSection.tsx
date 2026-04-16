@@ -1,14 +1,10 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { MessageSquareQuote } from "lucide-react";
+import testimonial01 from "@/assets/testimonial-01.webp";
+
+const testimonials = [testimonial01];
 
 const SocialProofSection = () => {
   const { ref, isVisible } = useScrollAnimation();
-
-  const testimonials = [
-    { name: "Depoimento 1", text: "Espaço reservado para depoimento real de aluno." },
-    { name: "Depoimento 2", text: "Espaço reservado para depoimento real de aluno." },
-    { name: "Depoimento 3", text: "Espaço reservado para depoimento real de aluno." },
-  ];
 
   return (
     <section className="py-10 md:py-16 relative overflow-hidden">
@@ -22,20 +18,18 @@ const SocialProofSection = () => {
           Veja o que acontece com quem decide agir{" "}
           <span className="text-primary">antes de ser tarde demais.</span>
         </h2>
-        <p className="text-center text-muted-foreground mb-12 text-lg">[Inserir prints de depoimentos]</p>
+        <p className="text-center text-muted-foreground mb-12 text-lg">
+          Depoimentos reais de quem já acompanha Bruno Musa
+        </p>
 
-        <div className="grid md:grid-cols-3 gap-6">
-          {testimonials.map((t, i) => (
-            <div
+        <div className="flex flex-col items-center gap-6">
+          {testimonials.map((src, i) => (
+            <img
               key={i}
-              className="glass-card rounded-2xl p-8 text-center transition-all duration-300 hover:-translate-y-2 hover:border-primary/40 hover:shadow-[0_0_25px_rgba(38,213,143,0.1)]"
-            >
-              <div className="w-16 h-16 rounded-full bg-primary/10 border border-primary/20 mx-auto mb-5 flex items-center justify-center">
-                <MessageSquareQuote className="w-7 h-7 text-primary" />
-              </div>
-              <p className="text-foreground/70 italic mb-4">{t.text}</p>
-              <p className="text-sm font-semibold text-primary">{t.name}</p>
-            </div>
+              src={src}
+              alt={`Depoimento ${i + 1}`}
+              className="w-full max-w-2xl rounded-xl"
+            />
           ))}
         </div>
       </div>
