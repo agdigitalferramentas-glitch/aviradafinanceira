@@ -35,7 +35,7 @@ const ClosingSection = () => {
           O Lote Zero ainda está aberto. Mas não por muito tempo.
         </p>
 
-        <CTAButton text="COMPRAR INGRESSO — LOTE ZERO" size="lg" />
+        <CTAButton text="COMPRAR INGRESSO — LOTE ZERO" size="lg" href="#price-anchor" />
 
         <p className="mt-6 text-sm text-muted-foreground">
           Vagas limitadas. Lote Zero pode virar a qualquer momento.

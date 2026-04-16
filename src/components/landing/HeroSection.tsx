@@ -53,7 +53,7 @@ const HeroSection = () => {
           </p>
 
           {/* CTA */}
-          <CTAButton text="QUERO GARANTIR MINHA VAGA NO LOTE ZERO" size="lg" />
+          <CTAButton text="QUERO GARANTIR MINHA VAGA NO LOTE ZERO" size="lg" href="#price-anchor" />
 
           <p className="mt-6 text-sm text-muted-foreground">
             Vagas do Lote Zero podem virar a qualquer momento
