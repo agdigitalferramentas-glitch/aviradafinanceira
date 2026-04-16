@@ -11,7 +11,7 @@ const HeroSection = () => {
         <img 
           src="/src/assets/hero-background.jpg" 
           alt="Background" 
-          className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-auto object-cover object-top opacity-90"
+          className="absolute inset-0 w-full h-full object-cover object-center opacity-90"
         />
       </div>
       {/* Radial glow overlay */}
