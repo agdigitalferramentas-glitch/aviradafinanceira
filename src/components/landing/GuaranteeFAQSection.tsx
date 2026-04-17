@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "É ao vivo?",
-    a: "100% ao vivo no Zoom, dia 09 de maio, das 8h às 15h. Você tira dúvidas diretamente com Bruno Musa.",
+    a: "100% ao vivo no Zoom, dia 09 de maio, das 9h às 15h. Você tira dúvidas diretamente com Bruno Musa.",
   },
   {
     q: "Vai ficar gravado?",

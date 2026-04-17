@@ -49,7 +49,7 @@ const HeroSection = () => {
           <ul className="flex flex-col sm:flex-row sm:flex-wrap gap-4 sm:gap-6 mb-10">
             <li className="flex items-center gap-3 text-base md:text-lg text-white">
               <Calendar className="w-5 h-5 md:w-6 md:h-6 text-primary shrink-0" aria-hidden="true" />
-              <span>09 de Maio, das 8h às 15h</span>
+              <span>09 de Maio, das 9h às 15h</span>
             </li>
             <li className="flex items-center gap-3 text-base md:text-lg text-white">
               <Video className="w-5 h-5 md:w-6 md:h-6 text-primary shrink-0" aria-hidden="true" />
