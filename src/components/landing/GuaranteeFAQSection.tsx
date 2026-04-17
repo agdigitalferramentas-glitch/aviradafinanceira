@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "Vai ficar gravado?",
-    a: "Não. Mas você pode adquirir a gravação ao finalizar a compra.",
+    a: "A imersão é 100% ao vivo e a gravação não está incluída no ingresso. Porém, durante a compra, você terá a opção de adicionar o acesso à gravação por um valor especial. Assim, você pode reassistir quantas vezes quiser, no seu ritmo.",
   },
   {
     q: "Por que o preço está tão baixo?",
