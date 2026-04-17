@@ -3,7 +3,7 @@ import CTAButton from "./CTAButton";
 import { Check, Calendar, Video } from "lucide-react";
 
 const deliverables = [
-  "7 horas de imersão ao vivo com Bruno Musa",
+  "6 horas de imersão ao vivo com Bruno Musa",
   "Leitura completa do cenário econômico de 2026",
   "Passo a passo para eu construir meu plano financeiro do zero",
   "Perguntas e respostas ao vivo",
@@ -58,7 +58,7 @@ const OfferSection = () => {
               <span id="price-anchor">Uma sessão com um consultor financeiro particular custa entre R$500 e R$2.000.</span>
             </p>
             <p className="text-xl text-foreground/80">
-              Aqui eu tenho 7 horas com Bruno Musa por:
+              Aqui eu tenho 6 horas com Bruno Musa por:
             </p>
           </div>
 
