@@ -65,7 +65,7 @@ const OfferSection = () => {
           {/* Price */}
           <div className="mb-10">
             <div className="inline-block">
-              <p className="text-lg text-muted-foreground line-through mb-1">R$ 997,00</p>
+              <p className="text-lg text-muted-foreground line-through mb-1">R$ 497,00</p>
               <p className="text-6xl md:text-7xl font-extrabold text-primary">
                 R$47<span className="text-3xl">,00</span>
               </p>
