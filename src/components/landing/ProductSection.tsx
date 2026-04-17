@@ -20,7 +20,7 @@ const ProductSection = () => {
         className={`container mx-auto px-4 max-w-5xl transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
       >
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-center mb-6 leading-tight">
-          Em 7 horas ao vivo com Bruno Musa,{" "}
+          Em 6 horas ao vivo com Bruno Musa,{" "}
           <span className="text-primary">vou entender:</span>
         </h2>
 
