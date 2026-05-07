@@ -158,7 +158,7 @@ const Opm0526 = () => {
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
               Apenas 100 vagas disponíveis · Até segunda-feira meio-dia
             </div>
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold leading-[1.1] mb-6">
+            <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold leading-[1.15] mb-6">
               100 pessoas vão operar ao lado de Bruno Musa durante os próximos meses.{" "}
               <span className="text-gradient">As outras vão assistir de fora.</span>
             </h1>
