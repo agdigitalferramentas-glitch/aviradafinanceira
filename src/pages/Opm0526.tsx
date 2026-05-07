@@ -15,7 +15,7 @@ import {
   CheckCircle2,
   ArrowRight,
 } from "lucide-react";
-import logo from "@/assets/logo.svg";
+import logo from "@/assets/logo-opm0526.svg";
 import seloGarantia from "@/assets/selo-garantia.png";
 
 const CHECKOUT_URL = "#garantir-vaga";
