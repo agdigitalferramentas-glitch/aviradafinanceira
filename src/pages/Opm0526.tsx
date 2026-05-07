@@ -148,7 +148,7 @@ const Opm0526 = () => {
       </header>
 
       {/* HERO */}
-      <section className="relative overflow-hidden pt-12 pb-16 md:pt-20 md:pb-24">
+      <section className="relative overflow-hidden min-h-screen flex items-center pt-12 pb-16 md:pt-20 md:pb-24">
         <img
           src={heroBg}
           alt=""
