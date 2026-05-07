@@ -64,6 +64,69 @@
   }
 }
 
+/* Scoped theme for /opm0526 page only */
+.opm0526-theme {
+  --background: 0 0% 15%;
+  --foreground: 0 0% 95%;
+  --card: 0 0% 18%;
+  --card-foreground: 0 0% 95%;
+  --popover: 0 0% 18%;
+  --popover-foreground: 0 0% 95%;
+  --primary: 88 87% 53%;
+  --primary-foreground: 0 0% 10%;
+  --secondary: 121 99% 20%;
+  --secondary-foreground: 0 0% 98%;
+  --muted: 0 0% 22%;
+  --muted-foreground: 0 0% 65%;
+  --accent: 95 87% 45%;
+  --accent-foreground: 0 0% 10%;
+  --border: 88 87% 53% / 0.2;
+  --input: 88 87% 53% / 0.25;
+  --ring: 88 87% 53%;
+  --highlight: 88 87% 53%;
+  background-color: #262626;
+}
+
+.opm0526-theme .text-gradient {
+  background-image: linear-gradient(135deg, #016502 0%, #7BD710 60%, #ACF01F 100%) !important;
+}
+
+.opm0526-theme .glow-green {
+  box-shadow: 0 0 20px rgba(123, 215, 16, 0.45), 0 0 60px rgba(1, 101, 2, 0.25) !important;
+}
+
+.opm0526-theme .glow-green-intense {
+  box-shadow: 0 0 30px rgba(172, 240, 31, 0.65), 0 0 80px rgba(123, 215, 16, 0.35) !important;
+}
+
+.opm0526-theme .glass {
+  background: rgba(38, 38, 38, 0.75) !important;
+  border-color: rgba(123, 215, 16, 0.18) !important;
+}
+
+.opm0526-theme .glass-card {
+  background: rgba(123, 215, 16, 0.06) !important;
+  border-color: rgba(123, 215, 16, 0.22) !important;
+}
+
+.opm0526-theme .card-surface {
+  background: #1F1F1F !important;
+  border-color: rgba(123, 215, 16, 0.18) !important;
+}
+
+.opm0526-theme .animate-pulse-glow {
+  animation: pulse-glow-opm 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow-opm {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(123, 215, 16, 0.45), 0 0 60px rgba(1, 101, 2, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(172, 240, 31, 0.7), 0 0 80px rgba(123, 215, 16, 0.4);
+  }
+}
+
 @layer utilities {
   .text-gradient {
     @apply bg-clip-text text-transparent;
