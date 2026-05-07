@@ -149,7 +149,14 @@ const Opm0526 = () => {
 
       {/* HERO */}
       <section className="relative overflow-hidden pt-12 pb-16 md:pt-20 md:pb-24">
-        <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full bg-primary/10 blur-[160px]" />
+        <img
+          src={heroBg}
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover object-top z-0"
+        />
+        <div className="absolute inset-0 bg-background/60 z-0" />
+        <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full bg-primary/10 blur-[160px] z-0" />
         <div
           ref={heroRef}
           className={`container mx-auto px-4 relative z-10 grid md:grid-cols-2 gap-12 items-center transition-all duration-1000 ${heroV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
@@ -171,15 +178,7 @@ const Opm0526 = () => {
               Primeira turma · Carrinho fecha em 3 dias
             </p>
           </div>
-          <div className="relative">
-            <div className="aspect-[4/5] rounded-2xl glass-card overflow-hidden flex items-center justify-center relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-transparent to-primary/5" />
-              <div className="text-center px-8 relative z-10">
-                <div className="text-7xl font-extrabold text-gradient mb-2">2026</div>
-                <p className="text-lg text-foreground/70">A janela já está aberta.</p>
-              </div>
-            </div>
-          </div>
+          <div className="hidden md:block" />
         </div>
       </section>
 
