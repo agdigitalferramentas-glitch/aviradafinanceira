@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import logo from "@/assets/logo-opm0526.svg";
 import seloGarantia from "@/assets/selo-garantia.png";
+import heroBg from "@/assets/opm0526-hero-bg.webp";
 
 const CHECKOUT_URL = "#garantir-vaga";
 
