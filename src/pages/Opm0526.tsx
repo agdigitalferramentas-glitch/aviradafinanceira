@@ -126,7 +126,7 @@ const Opm0526 = () => {
   const { ref: cRef, isVisible: cV } = useScrollAnimation();
 
   return (
-    <main className="min-h-screen bg-background text-foreground">
+    <main className="opm0526-theme min-h-screen bg-background text-foreground">
       {/* Sticky Navbar */}
       <header className="sticky top-0 z-50 backdrop-blur-md bg-background/70 border-b border-border">
         <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
