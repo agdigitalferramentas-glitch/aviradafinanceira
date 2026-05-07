@@ -84,7 +84,7 @@
   --input: 88 87% 53% / 0.25;
   --ring: 88 87% 53%;
   --highlight: 88 87% 53%;
-  background-color: #262626;
+  background-color: #1F1F1F;
 }
 
 .opm0526-theme .text-gradient {
@@ -100,7 +100,7 @@
 }
 
 .opm0526-theme .glass {
-  background: rgba(38, 38, 38, 0.75) !important;
+  background: rgba(31, 31, 31, 0.75) !important;
   border-color: rgba(123, 215, 16, 0.18) !important;
 }
 
@@ -110,7 +110,7 @@
 }
 
 .opm0526-theme .card-surface {
-  background: #1F1F1F !important;
+  background: #191919 !important;
   border-color: rgba(123, 215, 16, 0.18) !important;
 }
 
