@@ -153,10 +153,8 @@ const Opm0526 = () => {
           src={heroBg}
           alt=""
           aria-hidden="true"
-          className="absolute inset-0 w-full h-full object-cover object-top z-0"
+          className="absolute inset-0 w-full h-full object-cover object-bottom z-0"
         />
-        <div className="absolute inset-0 bg-background/60 z-0" />
-        <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] rounded-full bg-primary/10 blur-[160px] z-0" />
         <div
           ref={heroRef}
           className={`container mx-auto px-4 relative z-10 grid md:grid-cols-2 gap-12 items-center transition-all duration-1000 ${heroV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
