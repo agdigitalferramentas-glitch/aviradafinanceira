@@ -355,11 +355,11 @@ const Opm0526 = () => {
           ref={aRef}
           className={`container mx-auto px-4 max-w-4xl transition-all duration-700 ${aV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
-          <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-12">
-            Quem é <span className="text-gradient">Bruno Musa</span>
-          </h2>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="glass-card rounded-3xl p-8 md:p-10 space-y-6 text-base md:text-lg text-foreground/80 leading-relaxed">
+              <h2 className="text-3xl md:text-5xl font-extrabold leading-tight">
+                Quem é <span className="text-gradient">Bruno Musa</span>
+              </h2>
               <p>
                 Bruno Musa analisa o mercado financeiro brasileiro para a audiência da Jovem Pan — TV e rádio. Na Operação Musa, você não só ouve a análise: opera ao lado de quem a está fazendo, enquanto os eventos acontecem.
               </p>
