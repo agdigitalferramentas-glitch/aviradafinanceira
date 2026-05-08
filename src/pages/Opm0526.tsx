@@ -306,7 +306,7 @@ const Opm0526 = () => {
                       {val}
                     </span>
                   </div>
-                  <div className="h-px bg-gradient-to-r from-transparent via-primary/60 to-transparent" />
+                  <div className="h-px bg-gradient-to-r from-primary/60 to-transparent" />
                 </div>
               ))}
               <div className="flex items-center justify-between py-4 gap-4">
