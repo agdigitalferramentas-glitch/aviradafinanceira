@@ -59,7 +59,7 @@ const HeroSection = () => {
 
           {/* CTA */}
           <div className="flex flex-col items-center md:items-start w-full">
-            <CTAButton text="QUERO GARANTIR MINHA VAGA NO LOTE ZERO" size="lg" href="#price-anchor" />
+            <CTAButton text="QUERO GARANTIR MINHA VAGA NO LOTE ZERO" size="lg" href="#price-anchor" className="w-full !flex" />
 
             <p className="mt-3.5 text-muted-foreground uppercase text-center text-[12px] md:text-[14px]">
               VAGAS DO LOTE ZERO PODEM VIRAR A QUALQUER MOMENTO
