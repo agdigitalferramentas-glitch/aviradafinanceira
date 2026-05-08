@@ -1,8 +1,7 @@
 import { Calendar, Video } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import CTAButton from "./CTAButton";
-import heroBackground from "@/assets/hero-background.jpg";
-import heroBackgroundMobile from "@/assets/hero-background-mobile.webp";
+import heroBackgroundDesktop from "@/assets/hero-background-desktop.webp";
 import logo from "@/assets/logo.svg";
 
 const HeroSection = () => {
