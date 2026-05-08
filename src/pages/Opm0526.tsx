@@ -43,7 +43,7 @@ const CTA = ({
     <a
       href={href}
       {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-      className={`group relative inline-flex items-center justify-center gap-2 md:gap-3 ${sizeClasses} bg-primary text-primary-foreground font-bold uppercase tracking-wide rounded-lg animate-pulse-glow hover:glow-green-intense transition-all duration-300 hover:scale-[1.02] hover:brightness-110 ${className}`}
+      className={`group relative flex md:inline-flex w-full md:w-auto items-center justify-center gap-2 md:gap-3 ${sizeClasses} bg-primary text-primary-foreground font-bold uppercase tracking-wide rounded-lg animate-pulse-glow hover:glow-green-intense transition-all duration-300 hover:scale-[1.02] hover:brightness-110 ${className}`}
     >
       <span className="text-center whitespace-nowrap">{text}</span>
       <ArrowRight className="w-4 h-4 md:w-5 md:h-5 transition-transform group-hover:translate-x-1 flex-shrink-0" />
@@ -218,7 +218,7 @@ const Opm0526 = () => {
             <p className="text-base md:text-lg text-foreground/80 leading-relaxed mb-8">
               Operação Musa — 3 meses, 6 encontros ao vivo. Bruno Musa lê o mercado junto com você durante eleições, Copa do Mundo e oscilação do câmbio. Quando o ciclo fechar, você vai se arrepender de não ter aproveitado.
             </p>
-            <CTA size="lg" />
+            <CTA size="lg" className="w-full !flex md:w-fit" />
             <p className="mt-4 text-xs text-muted-foreground uppercase tracking-wider">
               Primeira turma · Carrinho fecha em 3 dias
             </p>
