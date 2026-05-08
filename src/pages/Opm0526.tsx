@@ -395,7 +395,7 @@ const Opm0526 = () => {
               <AccordionItem
                 key={i}
                 value={`faq-${i}`}
-                className="glass-card rounded-xl px-6 border-none"
+                className="glass-card dark-card rounded-xl px-6 border-none"
               >
                 <AccordionTrigger className="text-base md:text-lg font-semibold hover:text-primary hover:no-underline py-5 text-left">
                   {f.q}
