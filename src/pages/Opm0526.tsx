@@ -94,6 +94,39 @@ const steps = [
   },
 ];
 
+const TimelineItem = ({ step, index }: { step: typeof steps[number]; index: number }) => {
+  const { ref, isVisible } = useScrollAnimation(0.3);
+  const isLeft = index % 2 === 0;
+  return (
+    <div
+      ref={ref}
+      className={`relative md:grid md:grid-cols-2 md:gap-12 items-center transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}
+      style={{ transitionDelay: isVisible ? `${index * 120}ms` : "0ms" }}
+    >
+      {/* Dot */}
+      <div className="absolute left-6 md:left-1/2 top-6 -translate-x-1/2 z-10">
+        <div className="w-4 h-4 rounded-full bg-primary glow-green ring-4 ring-background" />
+      </div>
+
+      {/* Card */}
+      <div
+        className={`pl-16 md:pl-0 ${isLeft ? "md:pr-12 md:text-right" : "md:col-start-2 md:pl-12"}`}
+      >
+        <div className="glass-card rounded-2xl p-7 md:p-8 hover:border-primary/40 hover:shadow-[0_0_30px_rgba(2,166,3,0.2)] transition-all duration-300">
+          <div className={`text-5xl font-extrabold text-gradient mb-3 ${isLeft ? "md:text-right" : ""}`}>
+            {step.n}
+          </div>
+          <h3 className="text-lg md:text-xl font-bold mb-3">{step.title}</h3>
+          <p className="text-sm md:text-base text-foreground/70 leading-relaxed">
+            {step.text}
+          </p>
+        </div>
+      </div>
+      {isLeft && <div className="hidden md:block" />}
+    </div>
+  );
+};
+
 const faqs = [
   {
     q: "Preciso ter experiência com mercado financeiro para entrar?",
