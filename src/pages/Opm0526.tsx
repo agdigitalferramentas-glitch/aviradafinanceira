@@ -289,7 +289,7 @@ const Opm0526 = () => {
 
             {/* Deliverables */}
             <div className="text-left max-w-xl mx-auto mb-8 relative z-10">
-              <div className="flex items-center justify-between gap-4 pb-4 border-b border-border">
+              <div className="flex items-center justify-between gap-4 pb-4 border-b-2 border-white">
                 <span className="text-base md:text-lg font-bold">O que você leva</span>
                 <span className="text-base md:text-lg font-bold">Valor real</span>
               </div>
