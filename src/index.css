@@ -118,6 +118,10 @@
   background: #181818 !important;
 }
 
+.opm0526-theme .timeline-card {
+  background: rgba(24, 24, 24, 0.6) !important;
+}
+
 .opm0526-theme .bio-card {
   background: rgba(24, 24, 24, 0.8) !important;
   backdrop-filter: blur(10px) !important;
