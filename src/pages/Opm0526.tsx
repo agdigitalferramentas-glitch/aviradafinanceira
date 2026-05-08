@@ -221,7 +221,7 @@ const Opm0526 = () => {
           ref={bRef}
           className={`container mx-auto px-4 max-w-6xl transition-all duration-700 ${bV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
-          <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-4">
+          <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-14">
             O que você vai <span className="text-gradient">acessar</span>
           </h2>
 
@@ -231,7 +231,7 @@ const Opm0526 = () => {
               return (
                 <div
                   key={i}
-                  className="glass-card rounded-2xl p-7 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_0_20px_rgba(201,168,76,0.4),_0_0_60px_rgba(201,168,76,0.15)]"
+                  className="glass-card rounded-2xl p-7 transition-all duration-300 hover:-translate-y-1 hover:border-primary/60"
                 >
                   <div className="w-12 h-12 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center mb-5">
                     <Icon className="w-6 h-6 text-primary" />
