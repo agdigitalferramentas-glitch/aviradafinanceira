@@ -455,9 +455,6 @@ const Opm0526 = () => {
               AG WEBi
             </a>
           </p>
-          <p className="text-xs text-muted-foreground/60">
-            © 2026 Bruno Musa. Todos os direitos reservados.
-          </p>
         </div>
       </footer>
     </main>
