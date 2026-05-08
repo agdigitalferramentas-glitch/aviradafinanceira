@@ -20,6 +20,7 @@ import logo from "@/assets/logo-opm0526.svg";
 import logoFooter from "@/assets/logo-niu.png";
 
 import heroBg from "@/assets/opm0526-hero-bg.webp";
+import heroBgMobileTablet from "@/assets/hero-background-mobile-tablet.webp";
 import bioBruno from "@/assets/bio-bruno-musa-3.webp";
 
 const CHECKOUT_URL = "#garantir-vaga";
@@ -186,10 +187,16 @@ const Opm0526 = () => {
       {/* HERO */}
       <section className="relative overflow-hidden min-h-screen flex items-center pt-[2.4rem] pb-[3.2rem] md:pt-20 md:pb-24">
         <img
+          src={heroBgMobileTablet}
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover object-top z-0 lg:hidden"
+        />
+        <img
           src={heroBg}
           alt=""
           aria-hidden="true"
-          className="absolute inset-0 w-full h-full object-cover object-bottom z-0"
+          className="absolute inset-0 w-full h-full object-cover object-bottom z-0 hidden lg:block"
         />
         <div
           ref={heroRef}
