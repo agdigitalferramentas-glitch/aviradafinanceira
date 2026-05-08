@@ -389,7 +389,7 @@ const Opm0526 = () => {
             <h2 className="text-3xl md:text-5xl font-extrabold mb-3">
               Perguntas <span className="text-gradient">frequentes</span>
             </h2>
-            <p className="text-muted-foreground">Tire suas dúvidas antes de garantir sua vaga</p>
+            <p style={{ color: "#ffffff", fontSize: "20px" }}>Tire suas dúvidas antes de garantir sua vaga</p>
           </div>
 
           <Accordion type="single" collapsible className="space-y-3">
