@@ -350,7 +350,7 @@ const Opm0526 = () => {
       <SocialProofSection />
 
       {/* ABOUT BRUNO */}
-      <section id="bruno" className="py-16 md:py-24">
+      <section id="bruno" className="pt-32 md:pt-48 pb-16 md:pb-24">
         <div
           ref={aRef}
           className={`container mx-auto px-4 max-w-6xl transition-all duration-700 ${aV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
