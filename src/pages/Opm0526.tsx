@@ -15,6 +15,7 @@ import {
   CheckCircle2,
   ArrowRight,
 } from "lucide-react";
+import SocialProofSection from "@/components/landing/SocialProofSection";
 import logo from "@/assets/logo-opm0526.svg";
 import seloGarantia from "@/assets/selo-garantia.png";
 import heroBg from "@/assets/opm0526-hero-bg.webp";
