@@ -289,29 +289,31 @@ const Opm0526 = () => {
 
             {/* Deliverables */}
             <div className="text-left max-w-xl mx-auto mb-8 relative z-10">
-              <div className="flex items-center justify-between gap-4 pb-4 border-b-2 border-white">
+              <div className="flex items-center justify-between gap-4 pb-4">
                 <span className="text-base md:text-lg font-bold">O que você leva</span>
                 <span className="text-base md:text-lg font-bold">Valor real</span>
               </div>
-              <div className="divide-y divide-primary/40">
-                {[
-                  ["Operação Musa — 3 meses, 6 encontros ao vivo com Bruno Musa", "R$ 1.997"],
-                  ["Bônus: Empreende Educa", "R$ 997"],
-                  ["Bônus: Pílulas de Mercado com Bruno Musa", "R$ 497"],
-                ].map(([item, val], i) => (
-                  <div key={i} className="flex items-center justify-between py-4 gap-4">
+              <div className="h-0.5 bg-gradient-to-r from-transparent via-white to-transparent" />
+              {[
+                ["Operação Musa — 3 meses, 6 encontros ao vivo com Bruno Musa", "R$ 1.997"],
+                ["Bônus: Empreende Educa", "R$ 997"],
+                ["Bônus: Pílulas de Mercado com Bruno Musa", "R$ 497"],
+              ].map(([item, val], i) => (
+                <div key={i}>
+                  <div className="flex items-center justify-between py-4 gap-4">
                     <span className="text-sm md:text-base text-foreground/90">{item}</span>
                     <span className="text-sm md:text-base font-semibold text-foreground/70 whitespace-nowrap">
                       {val}
                     </span>
                   </div>
-                ))}
-                <div className="flex items-center justify-between py-4 gap-4">
-                  <span className="text-base md:text-lg font-bold">Total</span>
-                  <span className="text-base md:text-lg font-bold text-muted-foreground line-through">
-                    R$ 3.491
-                  </span>
+                  <div className="h-px bg-gradient-to-r from-transparent via-primary/60 to-transparent" />
                 </div>
+              ))}
+              <div className="flex items-center justify-between py-4 gap-4">
+                <span className="text-base md:text-lg font-bold">Total</span>
+                <span className="text-base md:text-lg font-bold text-muted-foreground line-through">
+                  R$ 3.491
+                </span>
               </div>
             </div>
 
