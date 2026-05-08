@@ -295,7 +295,7 @@ const Opm0526 = () => {
               </div>
               <div className="h-0.5 bg-gradient-to-r from-white to-transparent" />
               {[
-                ["Operação Musa — 3 meses, 6 encontros ao vivo com Bruno Musa", "R$ 1.997"],
+                ["3 meses, 6 encontros ao vivo com Bruno Musa", "R$ 1.997"],
                 ["Bônus: Empreende Educa", "R$ 997"],
                 ["Bônus: Pílulas de Mercado com Bruno Musa", "R$ 497"],
               ].map(([item, val], i) => (
