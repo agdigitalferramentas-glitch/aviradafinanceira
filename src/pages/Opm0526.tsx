@@ -378,7 +378,7 @@ const Opm0526 = () => {
       </section>
 
       {/* FAQ */}
-      <section id="faq" className="py-16 md:py-24">
+      <section id="faq" className="pt-32 md:pt-48 pb-16 md:pb-24">
         <div
           ref={fRef}
           className={`container mx-auto px-4 max-w-3xl transition-all duration-700 ${fV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
