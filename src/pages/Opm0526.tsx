@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import SocialProofSection from "@/components/landing/SocialProofSection";
 import logo from "@/assets/logo-opm0526.svg";
+import logoFooter from "@/assets/logo-niu.png";
 
 import heroBg from "@/assets/opm0526-hero-bg.webp";
 import bioBruno from "@/assets/bio-bruno-musa-3.webp";
@@ -439,10 +440,10 @@ const Opm0526 = () => {
       <footer className="border-t border-primary/10" style={{ paddingTop: "3.75rem", paddingBottom: "3.75rem" }}>
         <div className="container mx-auto px-4 text-center">
           <div className="mb-6 flex justify-center">
-            <img src={logo} alt="Bruno Musa" className="h-12 md:h-14 w-auto" />
+            <img src={logoFooter} alt="Niu Cursos" className="h-12 md:h-14 w-auto" />
           </div>
           <p className="text-sm text-muted-foreground mb-4">
-            Operação Musa — Mentoria ao vivo com Bruno Musa
+            ©2026 Niu Cursos - Todos os direitos reservados
           </p>
           <div className="h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent mb-6 max-w-sm mx-auto" />
           <p className="text-sm text-muted-foreground mb-2">
@@ -453,9 +454,6 @@ const Opm0526 = () => {
             <a href="https://agwebi.com.br/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">
               AG WEBi
             </a>
-          </p>
-          <p className="text-xs text-muted-foreground/60">
-            © 2026 Bruno Musa. Todos os direitos reservados.
           </p>
         </div>
       </footer>
