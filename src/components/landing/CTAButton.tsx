@@ -11,8 +11,8 @@ interface CTAButtonProps {
 
 const CTAButton = ({ text, href = "#", className = "", size = "default" }: CTAButtonProps) => {
   const sizeClasses = size === "lg" 
-    ? "px-10 py-5 text-base md:text-lg" 
-    : "px-8 py-4 text-base";
+    ? "px-6 md:px-10 py-5 text-sm md:text-lg" 
+    : "px-6 md:px-8 py-4 text-sm md:text-base";
 
   // Compute final href with current query params appended (for external checkout links)
   const [finalHref, setFinalHref] = useState(href);
@@ -35,7 +35,7 @@ const CTAButton = ({ text, href = "#", className = "", size = "default" }: CTABu
     <a
       href={finalHref}
       className={`
-        group relative inline-flex items-center justify-center gap-3
+        group relative inline-flex items-center justify-center gap-2 md:gap-3
         ${sizeClasses}
         bg-primary text-primary-foreground
         font-bold uppercase tracking-wide
@@ -47,10 +47,10 @@ const CTAButton = ({ text, href = "#", className = "", size = "default" }: CTABu
         ${className}
       `}
     >
-      <span className="text-center break-words hyphens-none whitespace-pre-line" style={{ textWrap: 'balance' as any }}>
+      <span className="text-center whitespace-nowrap">
         {preventOrphans(text)}
       </span>
-      <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1 flex-shrink-0" />
+      <ArrowRight className="w-4 h-4 md:w-5 md:h-5 transition-transform group-hover:translate-x-1 flex-shrink-0" />
     </a>
   );
 };
