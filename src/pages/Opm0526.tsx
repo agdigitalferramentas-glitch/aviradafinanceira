@@ -311,7 +311,7 @@ const Opm0526 = () => {
               ))}
               <div className="flex items-center justify-between py-4 gap-4">
                 <span className="text-base md:text-lg font-bold">Total</span>
-                <span className="text-base md:text-lg font-bold text-muted-foreground line-through">
+                <span className="text-base md:text-lg font-bold line-through text-red-400">
                   R$ 3.491
                 </span>
               </div>
