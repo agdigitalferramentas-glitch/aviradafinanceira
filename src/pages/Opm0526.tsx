@@ -224,7 +224,7 @@ const Opm0526 = () => {
           <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-4">
             O que você vai <span className="text-gradient">acessar</span>
           </h2>
-          <p className="text-center text-muted-foreground mb-14 max-w-2xl mx-auto">
+          <p className="text-center mb-14 max-w-2xl mx-auto" style={{ color: "#ffffff", fontSize: "20px" }}>
             Tudo o que está dentro da Operação Musa — leitura ao vivo, grupo fechado e bônus.
           </p>
 
