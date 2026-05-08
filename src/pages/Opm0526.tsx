@@ -184,7 +184,7 @@ const Opm0526 = () => {
       </header>
 
       {/* HERO */}
-      <section className="relative overflow-hidden min-h-screen flex items-center pt-12 pb-16 md:pt-20 md:pb-24">
+      <section className="relative overflow-hidden min-h-screen flex items-center pt-[2.4rem] pb-[3.2rem] md:pt-20 md:pb-24">
         <img
           src={heroBg}
           alt=""
@@ -216,7 +216,7 @@ const Opm0526 = () => {
         </div>
       </section>
 
-      <section id="beneficios" className="py-16 md:py-24">
+      <section id="beneficios" className="py-[3.2rem] md:py-24">
         <div
           ref={bRef}
           className={`container mx-auto px-4 max-w-6xl transition-all duration-700 ${bV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
@@ -248,7 +248,7 @@ const Opm0526 = () => {
       </section>
 
       {/* HOW IT WORKS */}
-      <section id="como-funciona" className="py-16 md:py-24 relative">
+      <section id="como-funciona" className="py-[3.2rem] md:py-24 relative">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-transparent" />
         <div
           ref={hRef}
@@ -272,7 +272,7 @@ const Opm0526 = () => {
       </section>
 
       {/* PRICING */}
-      <section id="garantir-vaga" className="py-16 md:py-24">
+      <section id="garantir-vaga" className="py-[3.2rem] md:py-24">
         <div
           ref={pRef}
           className={`container mx-auto px-4 max-w-3xl transition-all duration-700 ${pV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
@@ -349,7 +349,7 @@ const Opm0526 = () => {
       <SocialProofSection />
 
       {/* ABOUT BRUNO */}
-      <section id="bruno" className="pt-32 md:pt-48 pb-16 md:pb-24">
+      <section id="bruno" className="pt-[6.4rem] md:pt-48 pb-[3.2rem] md:pb-24">
         <div
           ref={aRef}
           className={`container mx-auto px-4 max-w-6xl transition-all duration-700 ${aV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
@@ -377,7 +377,7 @@ const Opm0526 = () => {
       </section>
 
       {/* FAQ */}
-      <section id="faq" className="pt-32 md:pt-48 pb-16 md:pb-24">
+      <section id="faq" className="pt-[6.4rem] md:pt-48 pb-[3.2rem] md:pb-24">
         <div
           ref={fRef}
           className={`container mx-auto px-4 max-w-3xl transition-all duration-700 ${fV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
@@ -410,7 +410,7 @@ const Opm0526 = () => {
       </section>
 
       {/* FINAL CTA */}
-      <section className="py-16 md:py-24">
+      <section className="py-[3.2rem] md:py-24">
         <div
           ref={cRef}
           className={`container mx-auto px-4 max-w-4xl transition-all duration-700 ${cV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
