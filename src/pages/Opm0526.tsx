@@ -189,7 +189,7 @@ const Opm0526 = () => {
       </header>
 
       {/* HERO */}
-      <section className="relative overflow-hidden min-h-screen flex items-center pt-[600px] pb-[3.2rem] lg:pt-20 lg:pb-24">
+      <section className="relative overflow-hidden min-h-screen flex items-center pt-[400px] pb-[3.2rem] lg:pt-20 lg:pb-24">
         <img
           src={heroBgMobileTablet}
           alt=""
