@@ -180,25 +180,6 @@ const Opm0526 = () => {
         </div>
       </section>
 
-      {/* PARTNERS / Trust strip */}
-      <section className="py-8 border-y border-border">
-        <div className="container mx-auto px-4">
-          <p className="text-center text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">
-            Visto e ouvido em
-          </p>
-          <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-4 text-foreground/60 font-bold text-lg md:text-xl">
-            <span>Jovem Pan</span>
-            <span className="opacity-40">•</span>
-            <span>JP News</span>
-            <span className="opacity-40">•</span>
-            <span>Pan Rádio</span>
-            <span className="opacity-40">•</span>
-            <span>YouTube</span>
-          </div>
-        </div>
-      </section>
-
-      {/* BENEFITS */}
       <section id="beneficios" className="py-16 md:py-24">
         <div
           ref={bRef}
