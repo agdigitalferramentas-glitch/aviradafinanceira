@@ -29,16 +29,20 @@ const CTA = ({
   text = "GARANTIR MINHA VAGA",
   size = "default",
   className = "",
+  href = CHECKOUT_URL,
 }: {
   text?: string;
   size?: "default" | "lg";
   className?: string;
+  href?: string;
 }) => {
   const sizeClasses =
     size === "lg" ? "px-6 md:px-10 py-5 text-sm md:text-lg" : "px-6 md:px-8 py-4 text-sm md:text-base";
+  const isExternal = /^https?:\/\//.test(href);
   return (
     <a
-      href={CHECKOUT_URL}
+      href={href}
+      {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
       className={`group relative inline-flex items-center justify-center gap-2 md:gap-3 ${sizeClasses} bg-primary text-primary-foreground font-bold uppercase tracking-wide rounded-lg animate-pulse-glow hover:glow-green-intense transition-all duration-300 hover:scale-[1.02] hover:brightness-110 ${className}`}
     >
       <span className="text-center whitespace-nowrap">{text}</span>
@@ -185,7 +189,7 @@ const Opm0526 = () => {
       </header>
 
       {/* HERO */}
-      <section className="relative overflow-hidden min-h-screen flex items-center pt-[600px] pb-[3.2rem] lg:pt-20 lg:pb-24">
+      <section className="relative overflow-hidden min-h-screen flex items-center pt-[400px] pb-[3.2rem] lg:pt-20 lg:pb-24">
         <img
           src={heroBgMobileTablet}
           alt=""
@@ -335,7 +339,7 @@ const Opm0526 = () => {
               ou R$697 à vista
             </p>
 
-            <CTA text="GARANTIR MINHA VAGA" size="lg" className="relative z-10" />
+            <CTA text="GARANTIR MINHA VAGA" size="lg" className="relative z-10" href="https://pay.kiwify.com.br/r8VeXlE" />
 
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-foreground/70 relative z-10">
               <span className="flex items-center gap-2">
