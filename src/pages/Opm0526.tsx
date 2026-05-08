@@ -17,7 +17,7 @@ import {
 } from "lucide-react";
 import SocialProofSection from "@/components/landing/SocialProofSection";
 import logo from "@/assets/logo-opm0526.svg";
-import seloGarantia from "@/assets/selo-garantia.png";
+
 import heroBg from "@/assets/opm0526-hero-bg.webp";
 import bioBruno from "@/assets/bio-bruno-musa-3.webp";
 
@@ -384,7 +384,7 @@ const Opm0526 = () => {
           className={`container mx-auto px-4 max-w-3xl transition-all duration-700 ${fV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
           <div className="text-center mb-10">
-            <img src={seloGarantia} alt="Garantia" className="w-24 mx-auto mb-6 animate-float" />
+            
             <h2 className="text-3xl md:text-5xl font-extrabold mb-3">
               Perguntas <span className="text-gradient">frequentes</span>
             </h2>
