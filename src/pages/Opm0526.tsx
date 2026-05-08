@@ -219,21 +219,21 @@ const Opm0526 = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-primary/5 to-transparent" />
         <div
           ref={hRef}
-          className={`container mx-auto px-4 max-w-5xl relative z-10 transition-all duration-700 ${hV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+          className={`container mx-auto px-4 max-w-3xl relative z-10 transition-all duration-700 ${hV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
-          <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-14">
+          <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-16">
             Como <span className="text-gradient">funciona</span>
           </h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            {steps.map((s, i) => (
-              <div key={i} className="glass-card rounded-2xl p-8 relative">
-                <div className="text-5xl font-extrabold text-primary/30 mb-4">{s.n}</div>
-                <h3 className="text-lg md:text-xl font-bold mb-3">{s.title}</h3>
-                <p className="text-sm md:text-base text-foreground/70 leading-relaxed">
-                  {s.text}
-                </p>
-              </div>
-            ))}
+
+          <div className="relative">
+            {/* Vertical line */}
+            <div className="absolute left-6 md:left-1/2 top-0 bottom-0 w-px md:-translate-x-1/2 bg-gradient-to-b from-transparent via-primary/40 to-transparent" />
+
+            <div className="space-y-12 md:space-y-20">
+              {steps.map((s, i) => (
+                <TimelineItem key={i} step={s} index={i} />
+              ))}
+            </div>
           </div>
         </div>
       </section>
