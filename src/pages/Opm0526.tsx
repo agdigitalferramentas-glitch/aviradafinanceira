@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import SocialProofSection from "@/components/landing/SocialProofSection";
 import logo from "@/assets/logo-opm0526.svg";
+import logoFooter from "@/assets/logo-niu.png";
 
 import heroBg from "@/assets/opm0526-hero-bg.webp";
 import bioBruno from "@/assets/bio-bruno-musa-3.webp";
