@@ -320,11 +320,12 @@ const Opm0526 = () => {
             <p className="text-sm uppercase tracking-[0.25em] text-muted-foreground mb-2 relative z-10">
               Valor real
             </p>
-            <p className="text-5xl md:text-6xl font-extrabold text-primary mb-2 relative z-10">
-              R$697
+            <p className="mb-2 relative z-10 text-foreground/80">
+              <span className="text-base md:text-lg">12x de </span>
+              <span className="text-5xl md:text-6xl font-extrabold text-primary">R$ 72,09</span>
             </p>
-            <p className="text-base md:text-lg text-foreground/80 mb-8 relative z-10">
-              ou 12x de R$ 72,09
+            <p className="text-sm md:text-base text-foreground/70 mb-8 relative z-10">
+              ou R$697 à vista
             </p>
 
             <CTA text="GARANTIR MINHA VAGA" size="lg" className="relative z-10" />
