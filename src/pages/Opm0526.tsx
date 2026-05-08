@@ -355,8 +355,8 @@ const Opm0526 = () => {
           ref={aRef}
           className={`container mx-auto px-4 max-w-6xl transition-all duration-700 ${aV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
-          <div className="grid md:grid-cols-3 gap-8 items-center">
-            <div className="md:col-span-2 glass-card rounded-3xl p-8 md:p-10 space-y-6 text-base md:text-lg text-foreground/80 leading-relaxed">
+          <div className="grid md:grid-cols-3 gap-0 items-center">
+            <div className="md:col-span-2 glass-card rounded-3xl p-8 md:p-10 space-y-6 text-base md:text-lg text-foreground/80 leading-relaxed relative z-20 md:mr-[-6rem]">
               <h2 className="text-3xl md:text-5xl font-extrabold leading-tight">
                 Quem é <span className="text-gradient">Bruno Musa</span>
               </h2>
@@ -367,7 +367,7 @@ const Opm0526 = () => {
                 Em 2015, durante o governo Dilma e a transição Temer, quem estava posicionado no mercado mudou de patamar. Quem esperou o mercado se estabilizar entrou depois que o movimento já tinha acontecido. A leitura de 2026 — eleições, Copa, câmbio — é a mais clara desde então.
               </p>
             </div>
-            <div className="relative">
+            <div className="relative z-10 md:scale-125 md:origin-right">
               <div className="aspect-[3/4] rounded-2xl overflow-hidden">
                 <img src={bioBruno} alt="Bruno Musa" className="w-full h-full object-cover" />
               </div>
