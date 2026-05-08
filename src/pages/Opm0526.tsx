@@ -320,9 +320,9 @@ const Opm0526 = () => {
             <p className="text-sm uppercase tracking-[0.25em] text-muted-foreground mb-2 relative z-10">
               Valor real
             </p>
-            <p className="mb-2 relative z-10 text-foreground/80">
-              <span className="text-base md:text-lg">12x de </span>
-              <span className="text-5xl md:text-6xl font-extrabold text-primary">R$ 72,09</span>
+            <p className="mb-2 relative z-10 text-primary font-extrabold">
+              <span className="text-2xl md:text-3xl">12x </span>
+              <span className="text-5xl md:text-6xl">R$ 72,09</span>
             </p>
             <p className="text-sm md:text-base text-foreground/70 mb-8 relative z-10">
               ou R$697 à vista
