@@ -417,6 +417,7 @@ const Opm0526 = () => {
         >
           <div className="glass-card rounded-3xl p-10 md:p-16 text-center relative overflow-hidden border-primary/40">
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] h-[400px] rounded-full bg-primary/10 blur-[120px]" />
+            <div className="absolute inset-0 rounded-3xl" style={{ background: 'radial-gradient(circle at center, transparent 30%, #181818 90%)' }} />
             <h2 className="relative text-3xl md:text-5xl font-extrabold mb-6 leading-tight">
               A janela de 2026{" "}
               <span className="text-gradient">já está aberta.</span>
