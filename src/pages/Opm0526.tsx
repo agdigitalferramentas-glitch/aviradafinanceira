@@ -231,7 +231,7 @@ const Opm0526 = () => {
               return (
                 <div
                   key={i}
-                  className="glass-card rounded-2xl p-7 transition-all duration-300 hover:-translate-y-1 hover:border-primary hover:shadow-[0_0_0_1px_hsl(var(--primary)),_0_0_12px_hsl(var(--primary)/0.6)]"
+                  className="glass-card dark-card rounded-2xl p-7 transition-all duration-300 hover:-translate-y-1 hover:border-primary hover:shadow-[0_0_0_1px_hsl(var(--primary)),_0_0_12px_hsl(var(--primary)/0.6)]"
                 >
                   <div className="w-12 h-12 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center mb-5">
                     <Icon className="w-6 h-6 text-primary" />
