@@ -22,7 +22,7 @@ const SocialProofSection = () => {
           Veja o que acontece com quem decide agir{" "}
           <span className="text-primary">antes de ser tarde demais.</span>
         </h2>
-        <p className="text-center text-muted-foreground mb-12 text-lg">
+        <p className="text-center mb-12" style={{ color: "#ffffff", fontSize: "20px" }}>
           Depoimentos reais de quem já acompanha Bruno Musa
         </p>
 
