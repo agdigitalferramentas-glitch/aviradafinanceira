@@ -339,7 +339,7 @@ const Opm0526 = () => {
               ou R$697 à vista
             </p>
 
-            <CTA text="GARANTIR MINHA VAGA" size="lg" className="relative z-10" />
+            <CTA text="GARANTIR MINHA VAGA" size="lg" className="relative z-10" href="https://pay.kiwify.com.br/r8VeXlE" />
 
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-foreground/70 relative z-10">
               <span className="flex items-center gap-2">
