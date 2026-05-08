@@ -293,7 +293,7 @@ const Opm0526 = () => {
                 <span className="text-base md:text-lg font-bold">O que você leva</span>
                 <span className="text-base md:text-lg font-bold">Valor real</span>
               </div>
-              <div className="h-0.5 bg-gradient-to-r from-transparent via-white to-transparent" />
+              <div className="h-0.5 bg-gradient-to-r from-white to-transparent" />
               {[
                 ["Operação Musa — 3 meses, 6 encontros ao vivo com Bruno Musa", "R$ 1.997"],
                 ["Bônus: Empreende Educa", "R$ 997"],
@@ -306,7 +306,7 @@ const Opm0526 = () => {
                       {val}
                     </span>
                   </div>
-                  <div className="h-px bg-gradient-to-r from-transparent via-primary/60 to-transparent" />
+                  <div className="h-px bg-gradient-to-r from-primary/60 to-transparent" />
                 </div>
               ))}
               <div className="flex items-center justify-between py-4 gap-4">
