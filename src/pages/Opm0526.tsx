@@ -19,6 +19,7 @@ import SocialProofSection from "@/components/landing/SocialProofSection";
 import logo from "@/assets/logo-opm0526.svg";
 import seloGarantia from "@/assets/selo-garantia.png";
 import heroBg from "@/assets/opm0526-hero-bg.webp";
+import bioBruno from "@/assets/bio-bruno-musa-3.webp";
 
 const CHECKOUT_URL = "#garantir-vaga";
 
@@ -357,13 +358,21 @@ const Opm0526 = () => {
           <h2 className="text-3xl md:text-5xl font-extrabold text-center mb-12">
             Quem é <span className="text-gradient">Bruno Musa</span>
           </h2>
-          <div className="glass-card rounded-3xl p-8 md:p-14 space-y-6 text-base md:text-lg text-foreground/80 leading-relaxed">
-            <p>
-              Bruno Musa analisa o mercado financeiro brasileiro para a audiência da Jovem Pan — TV e rádio. Na Operação Musa, você não só ouve a análise: opera ao lado de quem a está fazendo, enquanto os eventos acontecem.
-            </p>
-            <p>
-              Em 2015, durante o governo Dilma e a transição Temer, quem estava posicionado no mercado mudou de patamar. Quem esperou o mercado se estabilizar entrou depois que o movimento já tinha acontecido. A leitura de 2026 — eleições, Copa, câmbio — é a mais clara desde então.
-            </p>
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="glass-card rounded-3xl p-8 md:p-10 space-y-6 text-base md:text-lg text-foreground/80 leading-relaxed">
+              <p>
+                Bruno Musa analisa o mercado financeiro brasileiro para a audiência da Jovem Pan — TV e rádio. Na Operação Musa, você não só ouve a análise: opera ao lado de quem a está fazendo, enquanto os eventos acontecem.
+              </p>
+              <p>
+                Em 2015, durante o governo Dilma e a transição Temer, quem estava posicionado no mercado mudou de patamar. Quem esperou o mercado se estabilizar entrou depois que o movimento já tinha acontecido. A leitura de 2026 — eleições, Copa, câmbio — é a mais clara desde então.
+              </p>
+            </div>
+            <div className="relative">
+              <div className="aspect-[3/4] rounded-2xl overflow-hidden">
+                <img src={bioBruno} alt="Bruno Musa" className="w-full h-full object-cover" />
+              </div>
+              <div className="absolute -inset-2 rounded-2xl bg-gradient-to-t from-primary/10 to-transparent blur-2xl -z-10" />
+            </div>
           </div>
         </div>
       </section>
