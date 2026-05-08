@@ -115,7 +115,7 @@ const TimelineItem = ({ step, index }: { step: typeof steps[number]; index: numb
       <div
         className={`pl-16 md:pl-0 ${isLeft ? "md:pr-12 md:text-right" : "md:col-start-2 md:pl-12"}`}
       >
-        <div className="glass-card timeline-card rounded-2xl p-7 md:p-8 hover:border-primary/40 hover:shadow-[0_0_30px_rgba(2,166,3,0.2)] transition-all duration-300">
+        <div className="glass-card timeline-card rounded-2xl p-7 md:p-8 hover:border-primary/40 transition-all duration-300">
           <div className={`text-5xl font-extrabold text-gradient mb-3 ${isLeft ? "md:text-right" : ""}`}>
             {step.n}
           </div>
