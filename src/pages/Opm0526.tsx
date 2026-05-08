@@ -282,7 +282,7 @@ const Opm0526 = () => {
             <span className="text-gradient">Operação Musa</span>
           </h2>
 
-          <div className="glass-card rounded-3xl p-6 md:p-10 text-center relative overflow-hidden border-primary/40">
+          <div className="glass-card dark-card rounded-3xl p-6 md:p-10 text-center relative overflow-hidden border-primary/40">
             {/* Glow ring */}
             <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-40 h-40 rounded-full border-2 border-dashed border-primary/30 animate-float" />
 
