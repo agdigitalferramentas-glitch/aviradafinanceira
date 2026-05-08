@@ -293,7 +293,7 @@ const Opm0526 = () => {
                 <span className="text-base md:text-lg font-bold">O que você leva</span>
                 <span className="text-base md:text-lg font-bold">Valor real</span>
               </div>
-              <div className="h-0.5 bg-gradient-to-r from-transparent via-white to-transparent" />
+              <div className="h-0.5 bg-gradient-to-r from-white to-transparent" />
               {[
                 ["Operação Musa — 3 meses, 6 encontros ao vivo com Bruno Musa", "R$ 1.997"],
                 ["Bônus: Empreende Educa", "R$ 997"],
