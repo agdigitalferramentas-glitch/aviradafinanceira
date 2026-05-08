@@ -356,7 +356,7 @@ const Opm0526 = () => {
           className={`container mx-auto px-4 max-w-6xl transition-all duration-700 ${aV ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
         >
           <div className="grid md:grid-cols-3 gap-0 items-center">
-            <div className="md:col-span-2 glass-card rounded-3xl p-8 md:p-10 space-y-6 text-base md:text-lg text-foreground/80 leading-relaxed relative z-20 md:mr-[-6rem]">
+            <div className="md:col-span-2 md:w-[85%] glass-card rounded-3xl p-8 md:p-10 space-y-6 text-base md:text-lg text-foreground/80 leading-relaxed relative z-20 md:mr-[-6rem]">
               <h2 className="text-3xl md:text-5xl font-extrabold leading-tight">
                 Quem é <span className="text-gradient">Bruno Musa</span>
               </h2>
