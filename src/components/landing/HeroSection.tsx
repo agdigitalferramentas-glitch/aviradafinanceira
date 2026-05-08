@@ -13,7 +13,7 @@ const HeroSection = () => {
       {/* Desktop background image */}
       <div className="absolute inset-0 bg-background hidden md:block">
         <img 
-          src={heroBackground} 
+          src={heroBackgroundDesktop}
           alt="Background" 
           className="absolute inset-0 w-full h-full object-cover object-center opacity-90"
         />
