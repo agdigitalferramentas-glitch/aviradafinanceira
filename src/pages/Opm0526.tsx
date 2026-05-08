@@ -283,8 +283,13 @@ const Opm0526 = () => {
             <span className="text-gradient">Operação Musa</span>
           </h2>
 
-          <div className="glass-card rounded-3xl p-6 md:p-10 mb-8">
-            <div className="divide-y divide-border">
+          <div className="glass-card rounded-3xl p-6 md:p-10 text-center relative overflow-hidden border-primary/40">
+            {/* Glow ring */}
+            <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-40 h-40 rounded-full border-2 border-dashed border-primary/30 animate-float" />
+
+            {/* Deliverables */}
+            <h3 className="text-xl md:text-2xl font-bold mb-6 relative z-10">O que você leva</h3>
+            <div className="divide-y divide-border/50 text-left max-w-xl mx-auto mb-8 relative z-10">
               {[
                 ["Operação Musa — 3 meses, 6 encontros ao vivo com Bruno Musa", "R$ 1.997"],
                 ["Bônus: Empreende Educa", "R$ 997"],
@@ -304,23 +309,21 @@ const Opm0526 = () => {
                 </span>
               </div>
             </div>
-          </div>
 
-          <div className="glass-card rounded-3xl p-8 md:p-12 text-center relative overflow-hidden border-primary/40">
-            <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-40 h-40 rounded-full border-2 border-dashed border-primary/30 animate-float" />
-            <p className="text-sm uppercase tracking-[0.25em] text-muted-foreground mb-4">
-              Nessa página
+            {/* Price */}
+            <p className="text-sm uppercase tracking-[0.25em] text-muted-foreground mb-2 relative z-10">
+              Valor real
             </p>
-            <p className="text-6xl md:text-7xl font-extrabold text-primary mb-2">
+            <p className="text-5xl md:text-6xl font-extrabold text-primary mb-2 relative z-10">
               R$697
             </p>
-            <p className="text-base md:text-lg text-foreground/80 mb-8">
+            <p className="text-base md:text-lg text-foreground/80 mb-8 relative z-10">
               ou 12x de R$ 72,09
             </p>
 
-            <CTA text="GARANTIR MINHA VAGA" size="lg" />
+            <CTA text="GARANTIR MINHA VAGA" size="lg" className="relative z-10" />
 
-            <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-foreground/70">
+            <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-foreground/70 relative z-10">
               <span className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-primary" />
                 100 vagas · Carrinho fecha em 3 dias
