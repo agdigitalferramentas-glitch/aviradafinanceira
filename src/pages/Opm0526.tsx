@@ -29,16 +29,20 @@ const CTA = ({
   text = "GARANTIR MINHA VAGA",
   size = "default",
   className = "",
+  href = CHECKOUT_URL,
 }: {
   text?: string;
   size?: "default" | "lg";
   className?: string;
+  href?: string;
 }) => {
   const sizeClasses =
     size === "lg" ? "px-6 md:px-10 py-5 text-sm md:text-lg" : "px-6 md:px-8 py-4 text-sm md:text-base";
+  const isExternal = /^https?:\/\//.test(href);
   return (
     <a
-      href={CHECKOUT_URL}
+      href={href}
+      {...(isExternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
       className={`group relative inline-flex items-center justify-center gap-2 md:gap-3 ${sizeClasses} bg-primary text-primary-foreground font-bold uppercase tracking-wide rounded-lg animate-pulse-glow hover:glow-green-intense transition-all duration-300 hover:scale-[1.02] hover:brightness-110 ${className}`}
     >
       <span className="text-center whitespace-nowrap">{text}</span>
