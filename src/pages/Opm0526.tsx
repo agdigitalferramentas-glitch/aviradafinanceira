@@ -361,7 +361,7 @@ const Opm0526 = () => {
               </div>
               <div className="absolute -inset-2 rounded-2xl bg-gradient-to-t from-primary/10 to-transparent blur-2xl -z-10" />
             </div>
-            <div className="order-2 md:order-1 md:col-span-2 md:w-[85%] glass-card dark-card rounded-3xl p-8 md:p-10 space-y-6 text-base md:text-lg text-foreground/80 leading-relaxed relative z-20 md:mr-[-30px]">
+            <div className="order-2 md:order-1 md:col-span-2 md:w-[85%] glass-card dark-card bio-card rounded-3xl p-8 md:p-10 space-y-6 text-base md:text-lg text-foreground/80 leading-relaxed relative z-20 md:mr-[-30px]">
               <h2 className="text-3xl md:text-5xl font-extrabold leading-tight">
                 Quem é <span className="text-gradient">Bruno Musa</span>
               </h2>
