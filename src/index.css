@@ -114,6 +114,10 @@
   border-color: rgba(123, 215, 16, 0.18) !important;
 }
 
+.opm0526-theme .dark-card {
+  background: #181818 !important;
+}
+
 .opm0526-theme .animate-pulse-glow {
   animation: pulse-glow-opm 2s ease-in-out infinite;
 }
