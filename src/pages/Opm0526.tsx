@@ -34,14 +34,14 @@ const CTA = ({
   className?: string;
 }) => {
   const sizeClasses =
-    size === "lg" ? "px-10 py-5 text-base md:text-lg" : "px-8 py-4 text-base";
+    size === "lg" ? "px-6 md:px-10 py-5 text-sm md:text-lg" : "px-6 md:px-8 py-4 text-sm md:text-base";
   return (
     <a
       href={CHECKOUT_URL}
-      className={`group relative inline-flex items-center justify-center gap-3 ${sizeClasses} bg-primary text-primary-foreground font-bold uppercase tracking-wide rounded-lg animate-pulse-glow hover:glow-green-intense transition-all duration-300 hover:scale-[1.02] hover:brightness-110 ${className}`}
+      className={`group relative inline-flex items-center justify-center gap-2 md:gap-3 ${sizeClasses} bg-primary text-primary-foreground font-bold uppercase tracking-wide rounded-lg animate-pulse-glow hover:glow-green-intense transition-all duration-300 hover:scale-[1.02] hover:brightness-110 ${className}`}
     >
-      <span className="text-center">{text}</span>
-      <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+      <span className="text-center whitespace-nowrap">{text}</span>
+      <ArrowRight className="w-4 h-4 md:w-5 md:h-5 transition-transform group-hover:translate-x-1 flex-shrink-0" />
     </a>
   );
 };
