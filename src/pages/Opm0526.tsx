@@ -335,6 +335,9 @@ const Opm0526 = () => {
         </div>
       </section>
 
+      {/* SOCIAL PROOF */}
+      <SocialProofSection />
+
       {/* ABOUT BRUNO */}
       <section id="bruno" className="py-16 md:py-24">
         <div
