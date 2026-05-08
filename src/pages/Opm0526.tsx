@@ -219,7 +219,7 @@ const Opm0526 = () => {
               Operação Musa — 3 meses, 6 encontros ao vivo. Bruno Musa lê o mercado junto com você durante eleições, Copa do Mundo e oscilação do câmbio. Quando o ciclo fechar, você vai se arrepender de não ter aproveitado.
             </p>
             <CTA size="lg" className="w-full !flex md:w-fit" />
-            <p className="mt-4 text-xs text-muted-foreground uppercase tracking-wider">
+            <p className="mt-4 text-xs text-muted-foreground uppercase tracking-wider text-center md:text-left">
               Primeira turma · Carrinho fecha em 3 dias
             </p>
           </div>
