@@ -1,7 +1,7 @@
 import { Calendar, Video } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import CTAButton from "./CTAButton";
-import heroBackground from "@/assets/hero-background.jpg";
+import heroBackgroundDesktop from "@/assets/hero-background-desktop.webp";
 import heroBackgroundMobile from "@/assets/hero-background-mobile.webp";
 import logo from "@/assets/logo.svg";
 
@@ -13,7 +13,7 @@ const HeroSection = () => {
       {/* Desktop background image */}
       <div className="absolute inset-0 bg-background hidden md:block">
         <img 
-          src={heroBackground} 
+          src={heroBackgroundDesktop}
           alt="Background" 
           className="absolute inset-0 w-full h-full object-cover object-center opacity-90"
         />
