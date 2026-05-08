@@ -318,7 +318,7 @@ const Opm0526 = () => {
 
             {/* Price */}
             <p className="text-sm uppercase tracking-[0.25em] text-muted-foreground mb-2 relative z-10">
-              Valor real
+              Nessa página
             </p>
             <p className="mb-2 relative z-10 text-primary font-extrabold">
               <span className="text-2xl md:text-3xl">12x </span>
