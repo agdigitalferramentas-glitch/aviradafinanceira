@@ -34,13 +34,6 @@ const Opm0526Obg = () => {
 
   return (
     <main className="opm0526-theme min-h-screen bg-background text-foreground flex flex-col">
-      {/* Header */}
-      <header className="sticky top-0 z-50 backdrop-blur-md bg-background/70 border-b border-border">
-        <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
-          <img src={logo} alt="Bruno Musa" className="h-8 w-auto" />
-        </nav>
-      </header>
-
       {/* HERO / Confirmation */}
       <section className="relative overflow-hidden flex-1 flex items-center py-16 md:py-24">
         <img
