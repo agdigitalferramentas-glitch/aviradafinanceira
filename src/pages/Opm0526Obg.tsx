@@ -1,6 +1,5 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { CheckCircle2, MessageCircle, Calendar, UserCheck, ArrowRight } from "lucide-react";
-import logo from "@/assets/logo-opm0526.svg";
 import logoFooter from "@/assets/logo-niu.png";
 import heroBg from "@/assets/hero-background-desktop.webp";
 import heroBgMobileTablet from "@/assets/hero-background-mobile-tablet.webp";
