@@ -333,10 +333,10 @@ const Opm0526 = () => {
             </p>
             <p className="mb-2 relative z-10 text-primary font-extrabold">
               <span className="text-2xl md:text-3xl">12x </span>
-              <span className="text-5xl md:text-6xl">R$ 72,09</span>
+              <span className="text-5xl md:text-6xl">R$ 92,77</span>
             </p>
             <p className="text-sm md:text-base text-foreground/70 mb-8 relative z-10">
-              ou R$697 à vista
+              ou R$897 à vista
             </p>
 
             <CTA text="GARANTIR MINHA VAGA" size="lg" className="relative z-10" href="https://pay.kiwify.com.br/r8VeXlE" />
