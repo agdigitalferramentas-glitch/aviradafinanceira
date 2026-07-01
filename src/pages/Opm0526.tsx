@@ -14,7 +14,11 @@ import {
   Sparkles,
   CheckCircle2,
   ArrowRight,
+  Copy,
+  Check,
 } from "lucide-react";
+import { useState } from "react";
+import { toast } from "@/hooks/use-toast";
 import SocialProofSection from "@/components/landing/SocialProofSection";
 import logo from "@/assets/logo-opm0526.svg";
 import logoFooter from "@/assets/logo-niu.png";
