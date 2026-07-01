@@ -363,6 +363,36 @@ const Opm0526 = () => {
 
             <CTA text="GARANTIR MINHA VAGA" size="lg" className="relative z-10" href="https://pay.kiwify.com.br/Obco7Sa" />
 
+            <button
+              type="button"
+              onClick={handleCopyCoupon}
+              className="mt-6 relative z-10 w-full max-w-md mx-auto flex flex-col gap-3 rounded-2xl border border-dashed border-primary/50 bg-primary/5 hover:bg-primary/10 hover:border-primary transition-all p-5 text-left group cursor-pointer"
+              aria-label="Copiar cupom ANIVERSARIONIU"
+            >
+              <div className="flex items-center justify-between gap-3">
+                <span className="text-lg md:text-xl font-extrabold tracking-widest text-primary">
+                  ANIVERSARIONIU
+                </span>
+                <span className="flex items-center gap-1.5 text-xs md:text-sm font-semibold text-primary/90 group-hover:text-primary">
+                  {couponCopied ? (
+                    <>
+                      <Check className="w-4 h-4" /> Copiado
+                    </>
+                  ) : (
+                    <>
+                      <Copy className="w-4 h-4" /> Copiar
+                    </>
+                  )}
+                </span>
+              </div>
+              <p className="text-sm md:text-base text-foreground/90 leading-snug">
+                Use o cupom <span className="font-bold text-primary">ANIVERSARIONIU</span> no checkout e garanta seu desconto de aniversário!
+              </p>
+              <p className="text-xs md:text-sm text-foreground/60">
+                Válido até 31 de julho · Desconto aplicado automaticamente ao digitar o cupom.
+              </p>
+            </button>
+
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-foreground/70 relative z-10">
               <span className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-primary" />
