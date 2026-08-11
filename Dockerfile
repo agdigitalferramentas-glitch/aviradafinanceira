@@ -436,5 +436,6 @@ fi
 EOF
 RUN chmod +x /usr/local/bin/deployhub-start /usr/local/bin/deployhub-healthcheck
 EXPOSE 80 3000
-HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=3 CMD /usr/local/bin/deployhub-healthcheck
+# Infra Shield: Aumentado retries e start-period para evitar falso Bad Gateway durante boot do SPA/Nginx
+HEALTHCHECK --interval=15s --timeout=5s --start-period=45s --retries=10 CMD /usr/local/bin/deployhub-healthcheck
 CMD ["/usr/local/bin/deployhub-start"]
