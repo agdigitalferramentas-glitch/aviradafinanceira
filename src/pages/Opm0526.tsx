@@ -170,25 +170,6 @@ const Opm0526 = () => {
   const { ref: aRef, isVisible: aV } = useScrollAnimation();
   const { ref: fRef, isVisible: fV } = useScrollAnimation();
   const { ref: cRef, isVisible: cV } = useScrollAnimation();
-  const [couponCopied, setCouponCopied] = useState(false);
-
-  const handleCopyCoupon = async () => {
-    const code = "ANIVERSARIONIU";
-    try {
-      await navigator.clipboard.writeText(code);
-    } catch {
-      const el = document.createElement("textarea");
-      el.value = code;
-      document.body.appendChild(el);
-      el.select();
-      document.execCommand("copy");
-      document.body.removeChild(el);
-    }
-    setCouponCopied(true);
-    toast({ title: "Cupom copiado!", description: "ANIVERSARIONIU foi copiado para sua área de transferência." });
-    setTimeout(() => setCouponCopied(false), 2000);
-  };
-
   return (
     <main className="opm0526-theme min-h-screen bg-background text-foreground">
       {/* Sticky Navbar */}
