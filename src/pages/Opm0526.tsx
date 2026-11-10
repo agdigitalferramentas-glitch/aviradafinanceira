@@ -18,6 +18,7 @@ import {
   Check,
 } from "lucide-react";
 import { useState } from "react";
+import { Tag } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
 import SocialProofSection from "@/components/landing/SocialProofSection";
 import logo from "@/assets/logo-opm0526.svg";
@@ -342,7 +343,18 @@ const Opm0526 = () => {
               ou R$897 à vista
             </p>
 
-            <CTA text="GARANTIR MINHA VAGA" size="lg" className="relative z-10" href="https://pay.kiwify.com.br/Obco7Sa" />
+            <CTA text="GARANTIR MINHA VAGA" size="lg" className="relative z-10" href="https://pay.kiwify.com.br/Obco7Sa?coupon=BLACKDANIU" />
+            <div className="mt-6 relative z-10 w-full max-w-md mx-auto flex items-center gap-4 md:gap-5 rounded-2xl border border-primary/30 border-l-4 border-l-primary bg-primary/5 p-5 text-left">
+              <Tag className="w-10 h-10 md:w-12 md:h-12 shrink-0 text-primary" strokeWidth={1.75} />
+              <div>
+                <p className="text-base md:text-lg font-semibold leading-snug text-foreground">
+                  Cupom de desconto <span className="font-extrabold text-primary">BLACKDANIU</span> já aplicado diretamente no checkout!
+                </p>
+                <p className="mt-2 text-xs md:text-sm text-foreground/70 leading-snug">
+                  Válido por tempo limitado · Desconto aplicado de forma automática ao finalizar a compra.
+                </p>
+              </div>
+            </div>
 
 
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-foreground/70 relative z-10">
